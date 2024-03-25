@@ -1,0 +1,119 @@
+.kezdtext {
+    /*position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);*/
+    /*background-color: rgba(255,255,255,.2);*/
+    /*background-color: #FF9B6A;*/
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 3rem 1rem;
+    text-align: center;
+}
+
+.leir {
+    color: white;
+    padding: 1em;
+}
+
+section {
+    position: relative;
+    display: block;
+    text-align: center;
+    /*margin: .2em;*/
+    color: white;
+}
+
+section a {
+    display: block;
+    padding: 3em 0;
+    text-decoration: none;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+
+section a:hover {
+    background-color: /*#FF5151;*/ #FF9B6A;
+    color: black;
+}
+
+.leiras {display: none;}
+
+#grafikus {
+    background-image: url('ai-generated-8166706_1920.png');
+    background-size:cover;
+    background-position:center;
+}
+
+#rajzfilmes {
+    background-image: url('sketch-3822649_640.jpg');
+    background-size:cover;
+    background-position:center;
+}
+
+#modellezo {
+    background-image: url('laserwallp.jpg');
+    background-size:cover;
+    background-position:center;
+}
+
+#mocap {
+    background-image: url('avatar-1738010_1920.jpg');
+    background-size:cover;
+    background-position:center;
+}
+
+#foto {
+    background-image: url('lens-2.jpg');
+    background-size:cover;
+    background-position:center;
+}
+
+#jatekos {
+    background-image: url('game-controller-5619105_1280.jpg');
+    background-size:cover;
+    background-position:center;
+}
+
+#iro {
+    background-image: url('typewriter-1170657_1280.jpg');
+    background-size:cover;
+    background-position:center;
+}
+
+#szinesz {
+    background-image: url('enactment-258631_1920.jpg');
+    background-size:cover;
+    background-position:center;
+}
+
+#tancos {
+    background-image: url('dance-430554_1280-2.jpg');
+    background-size:cover;
+    background-position:center;
+}
+
+#zenei {
+    background-image: url('singer-2606347_1920.jpg');
+    background-size:cover;
+    background-position:center;
+}
+
+.sarga {background-color: #FF5151;}
+
+@media (min-width:768px){
+    #kezdtext {
+        width: 80%;
+        margin: auto;
+    }
+    main {
+        width: 80%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        /*grid-template-columns: 50% 50%;*/
+    }
+    .leiras {display:block;}
+}
