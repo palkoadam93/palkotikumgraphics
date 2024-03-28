@@ -11,7 +11,7 @@ body {
 #header{
     position: sticky;
     top: 0;
-    /*z-index:100; /*ettől megy mögé a kép görgetésnél!*/
+    z-index:100; /*ettől megy mögé a kép görgetésnél!*/
     display: grid;
     grid-template-columns: 70% 30%;
 }
