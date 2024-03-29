@@ -41,6 +41,12 @@ section a:hover {
 
 .leiras {display: none;}
 
+#bevgeom {
+    background-image: url('math-work-4711302_1280.jpg');
+    background-size:cover;
+    background-position:center;
+}
+
 #grafikus {
     background-image: url('ai-generated-8166706_1920.png');
     background-size:cover;
