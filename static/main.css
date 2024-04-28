@@ -143,7 +143,7 @@ footer #cc {
     transition: .5s;
 }
 
-@media (min-width: 768px){
+@media (min-width: 1081px){
     #header {display: block;}
     header h1 {
         font-size: 3rem;

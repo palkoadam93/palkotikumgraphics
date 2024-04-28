@@ -206,7 +206,7 @@ article a:hover {
 }
 .tem li {list-style-type: square;}
 
-@media (min-width:768px){
+@media (min-width: 1081px){
     #kezdtext, #kezd, .cim {
         width: 80%;
         margin: auto;

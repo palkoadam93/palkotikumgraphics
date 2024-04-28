@@ -37,7 +37,7 @@ main li {
 
 
 
-@media (min-width: 768px){
+@media (min-width: 1081px){
     main {
         width: 80%;
         margin: auto;
