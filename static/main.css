@@ -12,32 +12,22 @@ body {
     position: sticky;
     top: 0;
     z-index:100; /*ettől megy mögé a kép görgetésnél!*/
-    display: grid;
-    grid-template-columns: 70% 30%;
 }
 
 header {
     /*background-color: #161E54;*/
     background-color: #FF5151;
     color: white;
-    padding: 10px 0 10px 10%;
-
-    display: flex;
-    align-items:center;
-}
-
-header img {
-    /*height: 8rem;
-    padding-right: 2rem;
-    transition: .8s;*/
-    display: none;
+    text-align: center;
+    /*display: flex;
+    align-items:center;*/
 }
 
 header h1 {
     /*font-family: 'Noto Serif', serif;*/
-    font-family: 'REM', sans-serif;
-    display: inline-block;
-    font-size: 2rem;
+    /*font-family: 'REM', sans-serif;*/
+    font-family: 'Julius Sans One', sans-serif;
+    text-transform: uppercase;
 }
 
 header a {
@@ -56,6 +46,11 @@ header a:hover {
     background: none;
     color: orange;
     transition: 0.3s;
+}
+
+header h2 {
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
 }
 
 nav {
@@ -144,9 +139,8 @@ footer #cc {
 }
 
 @media (min-width: 1081px){
-    #header {display: block;}
     header h1 {
-        font-size: 3rem;
+        font-size: 4em;
     }
 
     nav {
