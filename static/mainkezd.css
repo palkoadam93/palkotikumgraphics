@@ -1,20 +1,27 @@
-.kezdtext {
-    /*position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);*/
-    /*background-color: rgba(255,255,255,.2);*/
-    /*background-color: #FF9B6A;*/
-    background-color: black;
-    color: white;
-    width: 100%;
-    padding: 3rem 1rem;
-    text-align: center;
+body {background: black;}
+
+.cim {
+    /*background-color: rgba(255,255,255,.8);*/
+    /*background-color: rgba(26,26,29,.9);*/
+    /*background: #FF9B6A;*/
+    background: white;
+    padding: 3rem;
+    text-align:center;
 }
 
-.leir {
-    color: white;
-    padding: 1em;
+.cim h1 {
+    margin:1rem;
+    font-family: 'Inter', sans-serif;
+}
+
+.cim h2 {
+    margin: 1rem 0;
+    text-align: left;
+    font-family: 'Inter', sans-serif;
+}
+
+.cim p {
+    text-align: justify;
 }
 
 section {
@@ -25,11 +32,32 @@ section {
     color: white;
 }
 
+.sarga {
+    background: #FF5151;
+    color: black;
+}
+.coral {
+    background: #FF9B6A;
+    color: white;
+}
+.blue {
+    background: #191970;
+    color: white;
+}
+.cyan {
+    background: cyan;
+    color: black;
+}
+.white {
+    background: white;
+    color: black;
+}
+
 section a {
     display: block;
-    padding: 3em 0;
-    text-decoration: none;
+    padding: 5em 0;
     color: white;
+    text-decoration: none;
     font-family: 'Inter', sans-serif;
     font-weight: bold;
 }
@@ -39,12 +67,8 @@ section a:hover {
     color: black;
 }
 
-.leiras {display: none;}
-
-#bevgeom {
-    background-image: url('math-work-4711302_1280.jpg');
-    background-size:cover;
-    background-position:center;
+.fekete {
+    color: black;
 }
 
 #grafikus {
@@ -52,74 +76,34 @@ section a:hover {
     background-size:cover;
     background-position:center;
 }
-
-#rajzfilmes {
-    background-image: url('sketch-3822649_640.jpg');
-    background-size:cover;
-    background-position:center;
-}
-
 #modellezo {
     background-image: url('laserwallp.jpg');
     background-size:cover;
     background-position:center;
 }
-
 #mocap {
     background-image: url('avatar-1738010_1920.jpg');
     background-size:cover;
     background-position:center;
 }
-
-#foto {
-    background-image: url('sony-1455035_1280.jpg');
-    background-size:cover;
-    background-position:center;
-}
-
 #jatekos {
     background-image: url('game-controller-5619105_1280.jpg');
     background-size:cover;
     background-position:center;
 }
 
-#iro {
-    background-image: url('typewriter-1170657_1280.jpg');
-    background-size:cover;
-    background-position:center;
-}
-
-#szinesz {
-    background-image: url('enactment-258631_1920.jpg');
-    background-size:cover;
-    background-position:center;
-}
-
-#tancos {
-    background-image: url('dance-430554_1280-2.jpg');
-    background-size:cover;
-    background-position:center;
-}
-
-#zenei {
-    background-image: url('singer-2606347_1920.jpg');
-    background-size:cover;
-    background-position:center;
-}
-
-.sarga {background-color: #FF5151;}
-
-@media (min-width: 1081px){
-    #kezdtext {
-        width: 80%;
-        margin: auto;
+@media (min-width:1081px){
+    #egy {
+        display: grid;
+        grid-template-columns: 25% 50% 25%;
+    }
+    #ketto {
+        display: grid;
+        grid-template-columns: 25% 25% 50%;
     }
     main {
-        width: 80%;
-        margin: auto;
         display: grid;
-        grid-template-columns: 25% 25% 25% 25%;
-        /*grid-template-columns: 50% 50%;*/
+        /*grid-template-columns: 25% 25% 25% 25%;*/
+        grid-template-columns: 50% 50%;
     }
-    .leiras {display:block;}
 }

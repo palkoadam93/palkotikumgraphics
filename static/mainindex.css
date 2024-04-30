@@ -1,3 +1,5 @@
+body {background: black;}
+
 .kezdtext {
     /*position: absolute;
     top: 50%;
@@ -5,8 +7,7 @@
     transform: translate(-50%, -50%);*/
     /*background-color: rgba(255,255,255,.2);*/
     /*background-color: #FF9B6A;*/
-    background-color: black;
-    color: white;
+    background-color: white;
     width: 100%;
     padding: 3rem 1rem;
     text-align: center;
@@ -95,7 +96,7 @@ article a:hover {
 .kepa a {color: white;}
 .kepa a:hover {color: black;}
 .arkek {background-color: /*#E14D2A;*/ #FF9B6A;}
-.askek {background-color: /*#88E0EF;*/ black; color: white;}
+.askek {background-color: /*#88E0EF;*/ white;}
 .askek a, .assarga a {color: red;}
 
 #arkre {
@@ -214,8 +215,6 @@ article a:hover {
     section {
         display: grid;
         grid-template-columns: 50% 50%;
-        margin: auto;
-        width: 80%;
     }
     aside h2, aside h3 {text-align: left;}
     .askek {

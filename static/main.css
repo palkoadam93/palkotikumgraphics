@@ -1,6 +1,8 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: black;
+    /*background-image:url('25328kicsi.jpg');
+    background-size: 100%;
+    background-attachment: fixed;*/
 }
 
 * {
@@ -9,23 +11,30 @@ body {
 }
 
 #header{
-    position: sticky;
+    /*position: sticky;
     top: 0;
-    z-index:100; /*ettől megy mögé a kép görgetésnél!*/
+    z-index: 100;*/
+    /*background-image: url('falcon-header.jpg');
+    background-size: 100%;
+    background-position: center;*/
+    background-image: linear-gradient(to bottom right, red, rgb(195,7,63));
+    color: white;
 }
 
 header {
-    /*background-color: #161E54;*/
-    background-color: #FF5151;
-    color: white;
+    /*background-image: linear-gradient(to bottom right, red, rgba(255,255,255,.8));*/
+    /*background-image: linear-gradient(to bottom right, red,  rgb(195,7,63));*/
+    
     text-align: center;
-    /*display: flex;
-    align-items:center;*/
+    transition: .5s;
+}
+
+#fej {
+    /*background-color: rgba(255, 155, 106, .4);*/
+    padding: 3em;
 }
 
 header h1 {
-    /*font-family: 'Noto Serif', serif;*/
-    /*font-family: 'REM', sans-serif;*/
     font-family: 'Julius Sans One', sans-serif;
     text-transform: uppercase;
 }
@@ -56,39 +65,24 @@ header h2 {
 nav {
     text-align: center;
     /*background-image: linear-gradient(to top, white, rgba(255,255,255,.5));*/
-    /*background-color: rgba(26,26,29,.8);*/
-    background-color: white;
-/*
+    background-color: rgba(26,26,29);
+
     display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;*/
+    grid-template-columns: 20% 20% 20% 20% 20%;
 }
 
 nav a {
     text-decoration: none;
     /*background-image: linear-gradient(to right, red, rgba(255,255,255,.8));*/
     font-weight: bold;
-    color: black;
-    display: block;
+    color: white;
+    /*display: inline-block;*/
     text-align: center;
 }
 
 nav a:hover {
     color: red;
 }
-
-/* ======== TABS BEGIN ========
-.tab {
-    overflow: hidden;
-}
-  
-.tab button {
-    float: left;
-}
-  
-.tabcontent {
-    display: none;
-}
-======== TABS BEGIN ======== */
 
 footer {
     /*background-color: rgb(195,7,63);*/
@@ -139,24 +133,33 @@ footer #cc {
 }
 
 @media (min-width: 1081px){
-    header h1 {
-        font-size: 4em;
-    }
-
-    nav {
-        display: block;
-        grid-template-columns:none;
-    }
-
-    nav a {
-        padding: .5rem 0;
-        width: 8rem;
-        display: inline-block;
-    }
+    @media (min-width: 1081px){
+        body {
+            width: 80%;
+            margin: auto;
+        }
+        header h1 {
+            font-size: 4em;
+        }
     
-    footer {
-        width: 80%; margin: auto;
-    }
+        #fej {padding: 5em;}
+    
+        /*header h2 {
+            letter-spacing: 30px;
+            margin-right: -30px;
+        }*/
+    
+        nav {
+            display: block;
+            grid-template-columns:none;
+        }
+    
+        nav a {
+            padding: .5rem 0;
+            width: 8rem;
+            display: inline-block;
+        }    
+    
 
     #id {
         border-bottom: none;
@@ -177,4 +180,5 @@ footer #cc {
         border-left: 1px solid; border-right: 1px solid;
     }
     .jobb {text-align: right;}
+}
 }

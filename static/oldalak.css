@@ -1,3 +1,9 @@
+body {
+    background-image: url('laserwallpkicsi.jpg');
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
 main {
     background-color: rgba(26,26,29,.9);
 }
@@ -38,9 +44,10 @@ main li {
 
 
 @media (min-width: 1081px){
-    main {
-        width: 80%;
-        margin: auto;
+    body {
+        background-image: url('laserwallp.jpg');
+        background-size: 100%;
+        background-attachment: fixed;
     }
     main iframe {
         display: block;
