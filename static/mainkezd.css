@@ -69,6 +69,12 @@ section a:hover {
     color: black;
 }
 
+#compgraf {
+    background-image: url('math-work-4711302_1280.jpg');
+    background-size:cover;
+    background-position:center;
+}
+
 #grafikus {
     background-image: url('ai-generated-8166706_1920.png');
     background-size:cover;
@@ -81,6 +87,11 @@ section a:hover {
 }
 #mocap {
     background-image: url('avatar-1738010_1920.jpg');
+    background-size:cover;
+    background-position:center;
+}
+#film {
+    background-image: url('sony-1455035_1280.jpg');
     background-size:cover;
     background-position:center;
 }
