@@ -41,9 +41,10 @@ aside h2, aside h3 {
     text-align: center;
 }
 
-aside h3 {
+.kezdtext h3, aside h3 {
     text-transform: uppercase;
     font-size: .8em;
+    color: #FF5151;
 }
 
 aside ol, aside p {
