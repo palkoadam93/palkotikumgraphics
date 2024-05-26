@@ -7,7 +7,7 @@ body {
 
 header {
     color: rgb(239, 62, 54);
-    padding: 2em .5em;
+    padding: 2rem .5rem;
 }
 
 main {
@@ -16,15 +16,14 @@ main {
     padding: 1em;
 }
 
-aside {
-    padding-right: 1em;
-}
+aside {padding-right: 1rem;}
+aside h1, aside p {padding-left: .5rem;}
 
 section h1 {
     color: rgb(239, 62, 54);
 }
 
-section ul {
+#t {
     list-style-type: none;
     padding: 0;
     border-bottom: 1px dotted;
@@ -45,7 +44,7 @@ nav a {
     color: #002379;
     display: block;
     text-decoration: none;
-    padding: .5em;
+    padding: .5rem;
     font-size: 100%;
 }
 
@@ -64,9 +63,7 @@ nav a:hover {
     border-top: 1px solid #0881A3;
 }
 
-h3 {
-    border-bottom: 1px solid;
-}
+h3 {border-bottom: 1px solid;}
 
 footer {
     border-top: 1px solid #0881A3;
@@ -107,5 +104,5 @@ footer a:hover {
         padding: 0; 
     }
 
-    p {text-align: justify;}
+    p, li {text-align: justify;}
 }
