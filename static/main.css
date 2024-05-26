@@ -17,7 +17,7 @@ main {
 }
 
 aside {
-    padding: 0 1em;
+    padding-right: 1em;
 }
 
 section h1 {
@@ -59,7 +59,10 @@ nav a:hover {
     color: white;
 }
 
-#fo {color: orange; border-top: 1px solid #0881A3;}
+#fo {
+    color: orange;
+    border-top: 1px solid #0881A3;
+}
 
 h3 {
     border-bottom: 1px solid;
