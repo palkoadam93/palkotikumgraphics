@@ -1,0 +1,28 @@
+body {
+    background-color: cadetblue;
+    width: 80%;
+    margin: auto;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav a {
+    color:darkblue;
+    display: block;
+    text-decoration: none;
+    padding: .5em;
+}
+
+nav a:hover {
+    background-color:chocolate;
+    color: white;
+}
