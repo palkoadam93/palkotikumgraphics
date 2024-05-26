@@ -77,11 +77,11 @@ footer img {
 
 footer p {
     text-align:center;
+    font-weight: bold;
 }
 
 footer a {
     text-decoration: none;
-    font-size: 80%;
     color: orange;
 }
 
