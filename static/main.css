@@ -10,6 +10,10 @@ header {
     padding: 2rem .5rem;
 }
 
+header img {
+    display: none;
+}
+
 main {
     /*background-color: rgba(26,26,29,.8);*/
     /*color: white;*/
@@ -102,10 +106,23 @@ footer a:hover {
         width: 80%;
         margin: auto;
     }
-    header {padding: 2em .5em;}
+    header {
+        display: grid;
+        grid-template-columns: 20% 80%;
+    }
+    header img {
+        display: block;
+        border: 1px solid black;
+        border-radius: 50%;
+        max-width: 50%;
+        height: auto;
+        margin: auto;
+        box-shadow: 5px 5px lightblue;
+    }
+    header h1 {text-shadow: 2px 2px 3px black;}
     main {
         display: grid;
-        grid-template-columns: 25% 75%;
+        grid-template-columns: 20% 80%;
         padding: 0; 
     }
 
