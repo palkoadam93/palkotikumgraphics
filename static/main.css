@@ -1,26 +1,18 @@
 body {
-    /*background-color: cadetblue;*/
-    background-image:url('laserwallpkicsi.jpg');
-    background-size: 100%;
-    background-attachment: fixed;
-
-    font-family: Arial;
+    font-family: "Source Sans 3", sans-serif;
     margin: 0;
+    color: #0881A3;
 }
 
 header {
-    background-color: rgba(255,255,255,.8);
-    border-bottom: 1px solid;
+    color: rgb(239, 62, 54);
+    padding: 2em .5em;
 }
 
 main {
-    background-color: rgba(26,26,29,.8);
-    color: white;
+    /*background-color: rgba(26,26,29,.8);*/
+    /*color: white;*/
     padding: 1em;
-}
-
-header {
-    padding: 2rem .5em;
 }
 
 aside {
@@ -34,15 +26,19 @@ nav ul {
 }
 
 nav a {
-    color:orange;
+    color: #002379;
     display: block;
     text-decoration: none;
     padding: .5em;
 }
 
 nav a:hover {
-    background-color:chocolate;
+    background-color: rgb(239, 62, 54);
     color: white;
+}
+
+section h1 {
+    color: rgb(239, 62, 54);
 }
 
 section ul {
@@ -68,9 +64,9 @@ h3 {
 }
 
 footer {
-    border-top: 1px solid;
-    background-color: rgba(255,255,255,.8);
+    border-top: 1px solid #0881A3;
     padding: 1rem;
+    color: rgb(239, 62, 54);
 }
 footer img {
     display: block;
@@ -85,31 +81,26 @@ footer p {
 footer a {
     text-decoration: none;
     font-size: 80%;
-    color: chocolate;
+    color: orange;
 }
 
 footer a:hover {
-    background-color: chocolate;
+    background-color: orange;
     color: white;
     transition: .5s;
 }
 
 @media(min-width:1081px){
     body {
-        background-image:url('laserwallp.jpg');
-        background-size: 100%;
-        background-attachment: fixed;
-
         width: 80%;
         margin: auto;
     }
+    header {padding: 2em .5em;}
     main {
         display: grid;
         grid-template-columns: 25% 75%;
-        padding: 0;
+        padding: 0; 
     }
 
-    p {
-        text-align: justify;
-    }
+    p {text-align: justify;}
 }
