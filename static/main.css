@@ -65,6 +65,11 @@ nav a:hover {
 
 h3 {border-bottom: 1px solid;}
 
+iframe {
+    display: block;
+    margin: auto;
+}
+
 footer {
     border-top: 1px solid #0881A3;
     padding: 1rem;
