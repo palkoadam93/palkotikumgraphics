@@ -4,7 +4,7 @@ body {
     background-size: 100%;
     background-attachment: fixed;
 
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Arial;
     margin: 0;
 }
 
@@ -24,7 +24,7 @@ header {
 }
 
 aside {
-    padding: .5em;
+    padding: .8em;
 }
 
 nav ul {
@@ -45,12 +45,22 @@ nav a:hover {
     color: white;
 }
 
-section a {
+section ul {
+    list-style-type: none;
+    padding: 0;
+    border-bottom: 1px dotted;
+}
+
+aside a, section a {
     text-decoration: none;
     color: orange;
 }
-section a:hover {
+aside a:hover, section a:hover {
     text-decoration: underline;
+}
+
+aside {
+    font-size: 80%;
 }
 
 h3 {
