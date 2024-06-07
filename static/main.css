@@ -79,6 +79,12 @@ h3 {border-bottom: 1px solid;}
 
 section a:hover {text-decoration: underline;}
 
+section img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
 iframe {
     display: block;
     margin: auto;
@@ -141,4 +147,33 @@ footer a:hover {
     }
 
     p, section li {text-align: justify;}
+
+    .jobb img {
+        float: right;
+        width: 40%;
+
+        width: 400px;
+        height: 400px;
+        object-fit: cover;
+    }
+    .jobb p {
+        float: left;
+        width: 40%;
+        padding: 2rem;
+    }
+    
+    .bal img {
+        float: left;
+        width: 40%;
+        padding: 2rem;
+
+        width: 400px;
+        height: 400px;
+        object-fit: cover;
+    }
+    .bal p {
+        float: right;
+        width: 40%;
+        padding: 2rem;
+    }
 }
