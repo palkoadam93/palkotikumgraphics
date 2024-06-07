@@ -2,7 +2,7 @@ div * {border: none;}
 
 article {
     margin: 1rem;
-    
+    color: black;
 }
 
 article h3, article p {
@@ -57,7 +57,6 @@ article h3 {margin: 0}
 
 #game {
     background-color: lightpink;
-    color: white;
 }
 #game h3 {
     background-color:crimson;
@@ -66,10 +65,10 @@ article h3 {margin: 0}
 
 #film {
     background-color: #CBC3E3;
-    color: white;
 }
 #film h3 {
     background-color: purple;
+    color: white;
 }
 
 button {
