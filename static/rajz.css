@@ -1,0 +1,85 @@
+div * {border: none;}
+
+article {
+    margin: 1rem;
+    
+}
+
+article * {
+    padding: .5rem;
+}
+
+article h3 {margin: 0}
+
+.alap h3 {
+    background-color: grey;
+    color: white;
+}
+
+.alap {
+    background-color: lightgray;
+}
+
+#kep {
+    background-color: lightyellow;
+}
+
+#kep h3 {
+    background-color: orange;
+    color: white;
+}
+
+#raszt {
+    background-color: lightgreen;
+}
+
+#raszt h3 {
+    background-color: green;
+    color: white;
+}
+
+#vekt {
+    background-color: lightblue;
+}
+
+#vekt h3 {
+    background-color: blue;
+    color: white;
+}
+
+#vekt3d {
+    background-color: cyan;
+}
+#vekt3d h3 {
+    background-color:darkcyan;
+    color: white;
+}
+
+#game {
+    background-color: palevioletred;
+    color: white;
+}
+#game h3 {
+    background-color:crimson;
+    color: white;
+}
+
+#film {
+    background-color: lightpink;
+    color: white;
+}
+#film h3 {
+    background-color: purple;
+}
+
+button a:hover {
+    text-decoration: none;
+}
+
+@media(min-width:1081px){
+    div {
+        display: grid;
+        grid-template-columns: 20% 40% 40%;
+    }
+    
+}
