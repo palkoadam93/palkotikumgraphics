@@ -45,17 +45,19 @@ aside a, section a {
 }
 
 nav ul {
+    font-weight: bold;
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
 
 nav a {
-    color: #002379;
+    color: #0881A3;
     display: block;
     text-decoration: none;
     padding: .5rem;
     font-size: 100%;
+    border-radius: 6px;
 }
 
 nav a:hover {
