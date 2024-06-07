@@ -48,7 +48,7 @@ article h3 {margin: 0}
 }
 
 #vekt3d {
-    background-color: cyan;
+    background-color: lightblue;
 }
 #vekt3d h3 {
     background-color:darkcyan;
@@ -56,7 +56,7 @@ article h3 {margin: 0}
 }
 
 #game {
-    background-color: palevioletred;
+    background-color: lightpink;
     color: white;
 }
 #game h3 {
@@ -72,8 +72,20 @@ article h3 {margin: 0}
     background-color: purple;
 }
 
+button {
+    background-color: orange;
+}
+
+button a {color: white;}
+
+button:hover {
+    background-color: white;
+}
+
 button a:hover {
     text-decoration: none;
+    color: orange;
+    
 }
 
 @media(min-width:1081px){
