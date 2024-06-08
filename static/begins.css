@@ -1,7 +1,11 @@
 div * {border: none;}
 
+div h2 {
+    margin: 0 0 1rem 0;
+}
+
 article {
-    margin: 1rem;
+    margin: 0 0 1rem 1rem;
     color: black;
 }
 
@@ -9,7 +13,9 @@ article h3, article p {
     padding: .5rem;
 }
 
-article h3 {margin: 0}
+article h3 {
+    margin: 0;
+}
 
 .alap h3 {
     background-color: grey;
@@ -99,5 +105,4 @@ button a:hover {
         display: grid;
         grid-template-columns: 20% 40% 40%;
     }
-    
 }
