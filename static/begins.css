@@ -1,12 +1,12 @@
 div * {border: none;}
 
-div h2 {
+/*div h2 {
     margin: 0 0 1rem 0;
-}
+}*/
 
-article {
+/*article {
     margin: 0 0 1rem 0;
-}
+}*/
 
 article h3, article p {
     padding: .5rem;
@@ -19,6 +19,8 @@ article h3, article p {
     background-color: grey;
     color: white;
 }
+
+.begin img {width:100%;}
 
 .begin button {
     margin-left: auto;
@@ -72,5 +74,5 @@ article h3, article p {
         display: grid;
         grid-template-columns: 20% 40% 40%;
     }
-    .alap{margin-right: 1rem;}
+    /*.alap{margin-right: 1rem;}*/
 }
