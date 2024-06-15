@@ -10,7 +10,15 @@
     text-decoration: none;
 }
 
-.baljobb {display: block;}
+main h1 {
+    margin: 0;
+    font-size: 3rem;
+    color: rgb(239, 62, 54);
+}
+
+.baljobb {
+    display: block;
+}
 .baljobb aside {display: none;}
 #szurke {color: grey;}
 #sarga {color: orange;}
@@ -23,7 +31,6 @@
 
 button {
     background-color: orange;
-    border: 1px solid orange;
     padding: 0;
     display: block;
     margin-left: 2rem;
@@ -31,19 +38,17 @@ button {
 
 button a {
     display: block;
-    color: white;
-    padding: .5rem;
-}
-
-button:hover {
     background-color: white;
+    color: orange;
+    padding: .5rem;
     border: 1px solid orange;
 }
 
 button a:hover {
     text-decoration: none;
-    color: orange;
-    
+    border: 1px solid orange;
+    background-color: orange;
+    color: white;
 }
 
 @media(min-width:1081px){
@@ -64,6 +69,10 @@ button a:hover {
 
     main {
         display: block;
+    }
+
+    h1 {
+        padding: 3rem 0 3rem 20%;
     }
 
     .baljobb {
