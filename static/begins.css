@@ -5,7 +5,7 @@ div * {border: none;}
 }*/
 
 /*article {
-    margin: 0 0 1rem 0;
+    margin: 0 0 1rem 0; 
 }*/
 
 article h3, article p {
@@ -20,7 +20,7 @@ article h3, article p {
     color: white;
 }
 
-.begin img {width:100%;}
+.begin img {display: none;}
 
 .begin button {
     margin-left: auto;
@@ -29,7 +29,7 @@ article h3, article p {
 /*#kep p {background-color: lightyellow;}*/
 
 #kep h3 {
-    background-color: orange;
+    background-color: blue;
     color: white;
 }
 
@@ -44,7 +44,7 @@ article h3, article p {
     background-color: lightblue;}*/
 
 #vekt h3 {
-    background-color: blue;
+    background-color:brown;
     color: white;
 }
 
@@ -74,5 +74,11 @@ article h3, article p {
         display: grid;
         grid-template-columns: 20% 40% 40%;
     }
+    .begin img {display: inline; width: 100%;}
     /*.alap{margin-right: 1rem;}*/
+    article {
+        border-left: 1px solid;
+        margin-bottom: 1rem;
+        margin-right: 1rem;
+    }
 }
