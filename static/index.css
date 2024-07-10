@@ -4,13 +4,13 @@
     padding: 0 1rem;
 }
 
-#bemutat div {background-color: #F5FFFA;}
+/*#bemutat div {background-color: #F5FFFA;}*/
 
 #bemutat a:hover {
     text-decoration: none;
 }
 
-main h1 {
+#index h1 {
     margin: 0;
     font-size: 3rem;
     color: rgb(239, 62, 54);
@@ -30,7 +30,6 @@ main h1 {
 .bal img, .jobb img {display: none;}
 
 button {
-    background-color: orange;
     padding: 0;
     display: block;
     margin-left: 2rem;
@@ -67,13 +66,58 @@ button a:hover {
         margin: 0;
     }
 
-    main {
+    #elvalaszto {
         display: block;
+        border: 1px solid black;
+        border-radius: 50%;
+        max-width: 10%;
+        height: auto;
+        
+        box-shadow: 5px 5px lightblue;
+        margin: 10rem auto;
+    }
+
+    #index {
+        display: block;
+    }
+
+    .begin {
+        padding-top: 3rem;
+    }
+    .alcim {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        /*height: 30rem;*/
+    }
+    .alcim h1, p {
+        margin: 0;
+        background-color: rgba(255, 255, 255, .8);
+        padding: 1rem 2rem;
+    }
+    #alcimhardver {
+        background-image: url("interior-design-8781907_1280.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:cover;
+    }
+    #alcim2d {
+        background-image: url("ai-generated-8166706_1920.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:cover;
+    }
+    #alcim3d {
+        background-image: url('laserwallp.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:cover;
     }
 
     h1 {
         padding: 3rem 0 3rem 20%;
     }
+
+    #index h2 {border: none;}
 
     .baljobb {
         display: grid;

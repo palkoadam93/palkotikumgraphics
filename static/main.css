@@ -26,6 +26,7 @@ header h1 {
     text-shadow: 2px 2px 3px black;
     padding: 3rem 0;
     margin: 0;
+    text-align: center;
 }
 
 main {
@@ -83,41 +84,6 @@ section h1 {color: rgb(239, 62, 54);}
     font-variant:small-caps;
 }
 
-.italapok {
-    background-image: url('circuit.jpg');
-    background-size: 100%;
-}
-
-.os {
-    background-image: url('os-720223_1920.jpg');
-    background-size: 100%;
-    background-position: center;
-}
-
-.network {
-    background-image: url('globe-8704013_1280.jpg');
-    background-size: 100%;
-    background-position: center;
-}
-
-.rendszuzem {
-    background-image: url('technology-8676538_640.jpg');
-    background-size: 100%;
-    background-position: center;
-}
-
-.ai {
-    background-image: url('hand-4-7014643_1920.jpg');
-    background-size: 100%;
-    background-position: center;
-}
-
-.office {
-    background-image: url('laptop-5714421_640.jpg');
-    background-size: 100%;
-    background-position: center;
-}
-
 h3 {
     border-bottom: 1px solid;
 }
@@ -164,11 +130,12 @@ footer a:hover {
 }
 
 @media(min-width:1081px){
-    body {
+    /*body {
         width: 80%;
         margin: auto;
-    }
+    }*/
     header {
+        padding: 0 10%;
         display: grid;
         grid-template-columns: 20% 80%;
     }
@@ -187,11 +154,16 @@ footer a:hover {
     header h1 {
         text-align: center;
     }
+    .fulszoveg div {
+        padding-left: 10%;
+    }
     main {
         display: grid;
         grid-template-columns: 20% 80%;
-        padding: 0; 
+        padding: 0 10%; 
     }
+
+    section div {padding: 0 10%;}
 
     p, section li {text-align: justify;}
 
