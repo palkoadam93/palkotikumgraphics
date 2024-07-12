@@ -33,6 +33,11 @@ article h3, article p {
     color: white;
 }
 
+#ill h3 {
+    background-color:cornflowerblue;
+    color: white;
+}
+
 /*#raszt p {background-color: lightgreen;}*/
 
 #raszt h3 {
