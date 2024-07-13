@@ -32,6 +32,7 @@ header h1 {
 /* =================================== FŐMENÜ ================================== */
 
 .menu {
+    /*background-color: cornflowerblue;*/
     background-color: #0881A3;
     overflow: hidden;
 }
@@ -45,12 +46,14 @@ header h1 {
 }
 .menu a:hover {
     background-color: white;
-    color: black;
+    /*color: cornflowerblue;*/
+    color: #0881A3;
 }
 
 #akt {
     background-color: white;
-    color: black;
+    /*color: cornflowerblue;*/
+    color: #0881A3;
 }
 
 /* =================================== FŐMENÜ ================================== */
@@ -160,9 +163,14 @@ footer a:hover {
     header h1 {
         text-align: center;
     }
-    .fulszoveg div {
+
+    .menu {
         padding-left: 10%;
     }
+    .menu a {
+        border-left: 1px solid white;
+    }
+
     main {
         display: grid;
         grid-template-columns: 20% 80%;

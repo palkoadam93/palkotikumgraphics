@@ -16,7 +16,8 @@ article h3, article p {
 /*.alap {background-color: lightgray;}*/
 
 .alap h3 {
-    background-color: grey;
+    /*background-color: cornflowerblue;*/
+    background-color: #0881A3;
     color: white;
 }
 
@@ -27,49 +28,42 @@ article h3, article p {
 }
 
 /*#kep p {background-color: lightyellow;}*/
-
-#kep h3 {
+#blue h3 {
     background-color: blue;
     color: white;
 }
 
-#ill h3 {
+#cfb h3 {
     background-color:cornflowerblue;
     color: white;
 }
 
 /*#raszt p {background-color: lightgreen;}*/
-
-#raszt h3 {
+#green h3 {
     background-color: green;
     color: white;
 }
 
-/*#vekt p {
-    background-color: lightblue;}*/
-
-#vekt h3 {
+/*#vekt p {background-color: lightblue;}*/
+#brown h3 {
     background-color:brown;
     color: white;
 }
 
 /*#vekt3d p {background-color: lightblue;}*/
-
-#vekt3d h3 {
+#darkcyan h3 {
     background-color:darkcyan;
     color: white;
 }
 
 /*#game p {background-color: lightpink}*/
-
-#game h3 {
+#crimson h3 {
     background-color:crimson;
     color: white;
 }
 
 /*#film p {background-color: #CBC3E3;}*/
-
-#film h3 {
+#purple h3 {
     background-color: purple;
     color: white;
 }
