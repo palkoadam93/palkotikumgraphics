@@ -93,10 +93,6 @@ section h1 {color: rgb(239, 62, 54);}
     font-variant:small-caps;
 }
 
-h3 {
-    border-bottom: 1px solid;
-}
-
 section {padding: 0 1rem;}
 
 section a:hover {text-decoration: underline;}
@@ -182,8 +178,4 @@ footer a:hover {
     section div {padding: 0 10%;}
 
     p, section li {text-align: justify;}
-
-    /* aloldalakon */
-    .R {float: right; width: 50%;}
-    .L {float: left; width: 50%;}
 }
