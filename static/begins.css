@@ -77,7 +77,7 @@ article h3, article p {
 @media(min-width:1081px){
     .begin {
         display: grid;
-        grid-template-columns: 20% 40% 40%;
+        grid-template-columns: 33% 33% 33%;
     }
     .begin img {display: inline; width: 100%;}
     /*.alap{margin-right: 1rem;}*/

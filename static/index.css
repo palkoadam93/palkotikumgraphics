@@ -50,6 +50,13 @@ button a:hover {
     color: white;
 }
 
+#elvalaszto {
+    width: 30%;
+    display: block;
+    margin: 5rem auto;
+    border-radius: 50%;
+}
+
 @media(min-width:1081px){
     .fulszoveg {
         display: grid;
@@ -68,10 +75,8 @@ button a:hover {
 
     #elvalaszto {
         display: block;
-        border-radius: 50%;
         max-width: 10%;
         height: auto;
-        margin: 5rem auto;
     }
 
     #index {
