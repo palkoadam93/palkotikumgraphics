@@ -60,7 +60,7 @@ button a:hover {
         padding: 0 10%;
         /*ha ezt a fulszoveg div elemnek adjuk, akkor a fulszoveg felének veszi a 10%-át!!!*/
 
-        background-image: url("backgrounds-8797576_1920.jpg");
+        background-image: url("../nyitokepek/backgrounds-8797576_1920.jpg");
         background-repeat: no-repeat;
         background-position: center;
         background-size:cover;
@@ -95,25 +95,25 @@ button a:hover {
         padding: 1rem 2rem;
     }
     #alcimhardver {
-        background-image: url("interior-design-8781907_1280.png");
+        background-image: url("../nyitokepek/interior-design-8781907_1280.png");
         background-repeat: no-repeat;
         background-position: center;
         background-size:cover;
     }
     #alcim2d {
-        background-image: url("ai-generated-8166706_1920.png");
+        background-image: url("../nyitokepek/ai-generated-8166706_1920.png");
         background-repeat: no-repeat;
         background-position: center;
         background-size:cover;
     }
     #alcim3d {
-        background-image: url('laserwallp.jpg');
+        background-image: url('../nyitokepek/laserwallp.jpg');
         background-repeat: no-repeat;
         background-position: center;
         background-size:cover;
     }
     #alcimanim {
-        background-image: url('lens-1.jpg');
+        background-image: url('../nyitokepek/lens-1.jpg');
         background-repeat: no-repeat;
         background-position: center;
         background-size:cover;
