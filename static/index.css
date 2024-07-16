@@ -13,7 +13,8 @@
 #index h1 {
     margin: 0;
     font-size: 3rem;
-    color: rgb(239, 62, 54);
+    /*color: rgb(239, 62, 54);*/
+    color: orangered;
 }
 
 #szurke {color: grey;}
@@ -71,17 +72,12 @@ button a:hover {
         margin: 0;
     }
 
-    #elvalaszto {
-        max-width: 5%;
-    }
+    #elvalaszto {max-width: 5%;}
 
-    #index {
-        display: block;
-    }
+    #index {display: block;}
 
-    .begin {
-        padding-top: 3rem;
-    }
+    .begin {padding-top: 3rem;}
+
     .alcim {
         display: grid;
         grid-template-columns: 50% 50%;
@@ -123,9 +119,7 @@ button a:hover {
         background-size:cover;
     }
 
-    h1 {
-        padding: 3rem 0 3rem 20%;
-    }
+    h1 {padding: 3rem 0 3rem 20%;}
 
     #index h2 {border: none;}
 }
