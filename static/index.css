@@ -62,6 +62,7 @@ button a:hover {
         /*ha ezt a fulszoveg div elemnek adjuk, akkor a fulszoveg felének veszi a 10%-át!!!*/
 
         background-image: url("../nyitokepek/backgrounds-8797576_1920.jpg");
+        background-attachment: fixed;/*CSAK ENNYIT ÍRTAM HOZZÁ!!!*/
         background-repeat: no-repeat;
         background-position: center;
         background-size:cover;
@@ -90,30 +91,35 @@ button a:hover {
     }
     #alcimhardver {
         background-image: url("../nyitokepek/interior-design-8781907_1280.png");
+        background-attachment: fixed;/*CSAK ENNYIT ÍRTAM HOZZÁ!!!*/
         background-repeat: no-repeat;
         background-position: center;
         background-size:cover;
     }
     #alcim2d {
         background-image: url("../nyitokepek/nature-4466342_1280.jpg");
+        background-attachment: fixed;/*CSAK ENNYIT ÍRTAM HOZZÁ!!!*/
         background-repeat: no-repeat;
         background-position: center;
         background-size:cover;
     }
     #alcim3d {
         background-image: url('../nyitokepek/laserwallp.jpg');
+        background-attachment: fixed;/*CSAK ENNYIT ÍRTAM HOZZÁ!!!*/
         background-repeat: no-repeat;
         background-position: center;
         background-size:cover;
     }
     #alcimjatek {
         background-image: url('../nyitokepek/game-controller-5619105_1280.jpg');
+        background-attachment: fixed;/*CSAK ENNYIT ÍRTAM HOZZÁ!!!*/
         background-repeat: no-repeat;
         background-position: center;
         background-size:cover;
     }
     #alcimanim {
         background-image: url('../nyitokepek/avatar-1738010_1920.jpg');
+        background-attachment: fixed;/*CSAK ENNYIT ÍRTAM HOZZÁ!!!*/
         background-repeat: no-repeat;
         background-position: center;
         background-size:cover;
