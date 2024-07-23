@@ -11,13 +11,6 @@ section h1 {
     color: orangered;
 }
 
-#szurke {color: grey;}
-#sarga {color: orange;}
-#lila {color:blueviolet;}
-#zold {color: green;}
-#piros {color:crimson;}
-#citrom {color:yellowgreen;}
-
 article h3, article p {
     padding: .5rem;
     margin: 0;
