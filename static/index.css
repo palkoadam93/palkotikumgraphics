@@ -77,8 +77,6 @@ button a:hover {
 
     #index {display: block;}
 
-    .begin {padding-top: 3rem;}
-
     .alcim {
         display: grid;
         grid-template-columns: 50% 50%;

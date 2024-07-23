@@ -56,13 +56,14 @@ article h3 {
     .begin {
         display: grid;
         grid-template-columns: 33% 33% 33%;
-        padding: 1rem 10%;
+        column-gap: 1rem;
+        row-gap: 1rem;
+        padding-top: 1rem;
     }
+
     .begin img {display: inline; width: 100%;}
-    /*.alap{margin-right: 1rem;}*/
+
     article {
         border-left: 1px solid;
-        margin-bottom: 1rem;
-        margin-right: 1rem;
     }
 }
