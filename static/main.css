@@ -1,5 +1,7 @@
 body {
     font-family: "Source Sans 3", sans-serif;
+    /*font-family: "Roboto Condensed", sans-serif;*/
+
     margin: 0;
     color: #0881A3;
     background-color: #F5FFFA;
@@ -84,8 +86,6 @@ section h1 {color: orangered;}
     font-variant:small-caps;
 }
 
-
-
 section a:hover {text-decoration: underline;}
 
 h3 {border-bottom: 1px solid;}
@@ -167,6 +167,8 @@ footer a:hover {
         grid-template-columns: 20% 80%;
         padding: 0 10%; 
     }
+
+    main section {padding: 0 2rem;}
 
     p, section li {text-align: justify;}
 }
