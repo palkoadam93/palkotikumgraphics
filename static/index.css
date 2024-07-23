@@ -60,39 +60,6 @@ button a:hover {
 }
 
 @media(min-width:1081px){
-    .fulszoveg {
-        display: grid;
-        grid-template-columns: 50% 50%;
-
-        background-image: url("../nyitokepek/backgrounds-8797576_1920.jpg");
-        background-attachment: fixed;/*CSAK ENNYIT ÍRTAM HOZZÁ!!!*/
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size:cover;
-    }
-    .fulszoveg p {
-        padding: 1rem;
-        background-color: rgba(255, 255, 255, .8);
-        margin: 0;
-    }
-
-    #elvalaszto {max-width: 5%;}
-
-    section {display: block;}
-
-    article {
-        display: grid;
-        grid-template-columns: 50% 50%;
-        padding-top: 1rem;
-        padding: 0 10%; /*a képernyő két szélén*/
-    }
-
-    article div {
-        padding: 1rem;
-    }
-
-    article img {display: inline; width: 100%;}
-
     .alcim {
         display: grid;
         grid-template-columns: 50% 50%;
@@ -103,6 +70,13 @@ button a:hover {
         margin: 0;
         background-color: rgba(255, 255, 255, .8);
         padding: 1rem 2rem;
+    }
+    #bev {
+        background-image: url("../nyitokepek/backgrounds-8797576_1920.jpg");
+        background-attachment: fixed;/*CSAK ENNYIT ÍRTAM HOZZÁ!!!*/
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:cover;
     }
     #alcimhardver {
         background-image: url("../nyitokepek/interior-design-8781907_1280.png");
@@ -139,4 +113,21 @@ button a:hover {
     }
 
     section {padding: 0;}
+
+    section {display: block;}
+
+    article {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        padding-top: 1rem;
+        padding: 0 10%; /*a képernyő két szélén*/
+    }
+
+    article div {
+        padding: 1rem;
+    }
+
+    article img {display: inline; width: 100%;}
+
+    #elvalaszto {max-width: 5%;}
 }
