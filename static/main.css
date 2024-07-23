@@ -84,7 +84,7 @@ section h1 {color: orangered;}
     font-variant:small-caps;
 }
 
-section {padding: 0 1rem;}
+
 
 section a:hover {text-decoration: underline;}
 
@@ -167,9 +167,6 @@ footer a:hover {
         grid-template-columns: 20% 80%;
         padding: 0 10%; 
     }
-
-    section {padding: 0;}
-    section div {padding: 0 10%;}
 
     p, section li {text-align: justify;}
 }
