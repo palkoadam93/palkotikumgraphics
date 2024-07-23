@@ -70,12 +70,41 @@ main {
 /*aside {padding-right: 1rem;}*/
 aside h1, aside p {padding-left: .5rem;}
 
-aside a, section a {
+aside a, section a, article a {
     text-decoration: none;
     color: orange;
 }
 
+/* =================================== ALMENÜ ==================================
+
+nav {
+    background-color: rgba(255, 255, 255, .8);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    color: #002379;
+    display: block;
+    text-decoration: none;
+    padding: .5rem;
+    font-size: 100%;
+}
+
+nav a:hover {color: orangered;}
+
 hr {margin: 0;}
+
+#aktiv {
+    background-color: orangered;
+    color: white;
+}
+
+/* =================================== ALMENÜ ================================== */
 
 section h1 {color: orangered;}
 
@@ -89,7 +118,7 @@ section h1 {color: orangered;}
 section a:hover {text-decoration: underline;}
 
 h3 {border-bottom: 1px solid;}
-article h3 {border-bottom: none;}
+section h3, article h3 {border-bottom: none;}
 
 iframe {
     display: block;
@@ -167,8 +196,6 @@ footer a:hover {
         grid-template-columns: 20% 80%;
         padding: 0 10%; 
     }
-
-    main section {padding: 0 2rem;}
 
     p, section li {text-align: justify;}
 }
