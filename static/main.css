@@ -168,8 +168,7 @@ footer a:hover {
         padding: 0 10%; 
     }
 
-    #bemutat {padding: 0;}
-
+    section {padding: 0;}
     section div {padding: 0 10%;}
 
     p, section li {text-align: justify;}

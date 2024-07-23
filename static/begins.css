@@ -56,6 +56,7 @@ article h3 {
     .begin {
         display: grid;
         grid-template-columns: 33% 33% 33%;
+        padding: 1rem 10%;
     }
     .begin img {display: inline; width: 100%;}
     /*.alap{margin-right: 1rem;}*/

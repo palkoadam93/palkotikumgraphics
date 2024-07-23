@@ -6,7 +6,7 @@
 
 /*#bemutat div {background-color: #F5FFFA;}*/
 
-#bemutat a:hover {
+section a:hover {
     text-decoration: none;
 }
 
@@ -84,7 +84,7 @@ button a:hover {
         grid-template-columns: 50% 50%;
         /*height: 30rem;*/
     }
-    .alcim h1, .alcim p {
+    .alcim p {
         margin: 0;
         background-color: rgba(255, 255, 255, .8);
         padding: 1rem 2rem;
@@ -97,7 +97,7 @@ button a:hover {
         background-size:cover;
     }
     #alcim2d {
-        background-image: url("../nyitokepek/nature-4466342_1280.jpg");
+        background-image: url("../nyitokepek/graphic-5403808_1280-169.png");
         background-attachment: fixed;/*CSAK ENNYIT ÍRTAM HOZZÁ!!!*/
         background-repeat: no-repeat;
         background-position: center;
@@ -118,7 +118,7 @@ button a:hover {
         background-size:cover;
     }
 
-    h1 {padding: 3rem 0 3rem 20%;}
+    h1 {padding: 3rem 0 3rem 10%;}
 
     #index h2 {border: none;}
 }
