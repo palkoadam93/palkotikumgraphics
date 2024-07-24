@@ -21,7 +21,7 @@ section h3, article h3 {
     font-size: 200%;
 }
 
-section img, article img {display: none;}
+section img, #alkezdo img, article img {display: none;}
 
 button {
     border: none;
@@ -119,20 +119,25 @@ button a:hover {
     section h3 {margin: 0;}
 
     #alkezdo {
-        display: grid;
-        grid-template-columns: 25% 25% 25% 25%;
+        /*display: grid;
+        grid-template-columns: 25% 25% 25% 25%;*/
+        margin: 0 20% 0 10%;
     }
     #alkezdo a {
         color: #0881A3;
-        margin: 0 10%; /*a képernyő két szélén*/
+        /*margin: 0 10%; /*a képernyő két szélén*/
         transition: transform .2s;
+        display: grid;
+        grid-template-columns: 25% 75%;
+        margin: 2rem 0;
+        border-bottom: 1px solid;
     }
     #alkezdo a:hover {
         transform: scale(1.05);
         box-shadow: 0 8px 16px 0 rgba(0,0,0,.2);
     }
 
-    section img, article img {display: inline; width: 100%;}
+    section img, #alkezdo img, article img {display: inline; width: 100%;}
 
     #elvalaszto {max-width: 5%;}
 }
