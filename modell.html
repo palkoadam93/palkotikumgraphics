@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="static/Palkotikumicon.png">
+
+    <title>Tehetséggondozás</title>
+    <link rel="stylesheet" href="static/main.css">
+    <link rel="stylesheet" href="static/index.css">
+    <link rel="stylesheet" href="static/begins.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <!--Roboto Condensed a fulszovegnek-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <header id="fofejlec">
+      <a href="index.html"><img src="static/Palkotikumlogo2.png" alt="p"></a>
+      <h1>Tehetséggondozás</h1>
+    </header>
+    
+    <div class="menu">
+      <a href="index.html">Kezdőlap</a>
+      <a href="bevezeto.html">Bevezető</a>
+      <a href="ketdimenzios.html">Rajzprogram</a>
+      <a href="nurbs.html">Modellezés I.</a>
+      <a href="#" id="akt">Modellezés II.</a>
+      <a href="jatek.html">Játék</a>
+    </div>
+
+    <div class="alcim" id="alcimpoli">
+      <p>A subdivision görbék és poligoniális felületek kiemelt szerepet töltenek be a számítógépes grafikában és 3D modellezésben. A subdivision görbék olyan technikákat jelentenek, amelyekkel finomabb, simább felületek hozhatók létre a durvább, alacsonyabb poligonszámú hálók egyszerű iterációs felosztásával. Ez a módszer különösen hasznos, ha organikus vagy komplex formákat szeretnénk létrehozni, mivel lehetővé teszi a részletgazdag és folytonos felületek előállítását anélkül, hogy nagymértékben növelnénk a poligonszámot. A poligoniális felületek alapvetően sokszögekből épülnek fel, amelyek háromszögekké vagy négyszögekké bonthatók, és ezek alkotják a 3D modellek vázát, amelyeket aztán finomíthatunk subdivision technikákkal.
+      <br><br>
+      A Blender egy nyílt forráskódú 3D modellező szoftver, amely kiválóan alkalmas subdivision görbék és poligoniális felületek kezelésére. A Blender eszközkészlete lehetővé teszi a művészek és tervezők számára, hogy komplex modelleket hozzanak létre, textúrázzanak és animáljanak. A program különféle módokat kínál a subdivision és poligoniális technikák alkalmazására, így a felhasználók könnyedén tudják optimalizálni modelljeiket a kívánt részletesség és teljesítmény érdekében. A Blender közössége és fejlesztői folyamatosan frissítik a szoftvert, új funkciókat és eszközöket adva hozzá, amelyek még inkább megkönnyítik a 3D modellezést és az animáció készítését.
+      <br><br>
+      Az Unreal Engine, mint vezető játékmotor, szintén nagyban támaszkodik a subdivision görbékre és poligoniális felületekre a valós idejű 3D renderelés és játékfejlesztés során. Az Unreal Engine lehetőséget biztosít arra, hogy a Blenderben vagy más modellező szoftverekben létrehozott modelleket importáljuk és optimalizáljuk a játékokban való használatra. Az engine különösen hatékony a nagyméretű és részletes környezetek kezelésében, ahol a subdivision technikák segítenek a finom, részletgazdag felületek létrehozásában anélkül, hogy a játék teljesítményét jelentősen csökkentenék. Az Unreal Engine eszközkészlete és valós idejű renderelési képességei révén a fejlesztők lenyűgöző, élethű játékvilágokat alkothatnak, amelyek magával ragadó élményt nyújtanak a játékosok számára.</p>
+    </div>
+
+    <h1>Poligon-felületek modellezése</h1>
+
+    <div id="alkezdo">
+      <a href="poligon/subdiv.html">
+        <img src="poligon/deer-3275594_1280-169.jpg" alt="deer-3275594_1280-169">
+        <article>
+          <h3>Subdivision és poligon</h3>
+          <p>A poligoniális modellezés a 3D grafika alapvető technikája, amely háromszögek és négyszögek felhasználásával hoz létre objektumokat. Ezzel a módszerrel részletes és pontos geometriai formák modellezhetők. Gyakran alkalmazzák videojátékokban, animációkban és vizuális effektekben.</p>
+        </article>
+      </a>
+
+      <a href="poligon/blender.html">
+        <img src="poligon/blenderlogo.png" alt="blenderlogo">
+        <article>
+          <h3>Modellezés Blenderben</h3>
+          <p>A Blender egy nyílt forráskódú 3D modellező szoftver, amely kiválóan alkalmas subdivision görbék és poligoniális felületek kezelésére. A Blender eszközkészlete lehetővé teszi a művészek és tervezők számára, hogy komplex modelleket hozzanak létre, textúrázzanak és animáljanak.</p>
+        </article>
+      </a>
+
+      <a href="poligon/unreal.html">
+        <img src="poligon/placeholder-social.png" alt="placeholder-social">
+        <article>
+          <h3>Modellezés Unreal Engine-ben</h3>
+          <p>Az Unreal Engine, mint vezető játékmotor, szintén nagyban támaszkodik a subdivision görbékre és poligoniális felületekre a valós idejű 3D renderelés és játékfejlesztés során. Az Unreal Engine lehetőséget biztosít arra, hogy a Blenderben vagy más modellező szoftverekben létrehozott modelleket importáljuk és optimalizáljuk a játékokban való használatra.</p>
+        </article>  
+      </a>
+
+      <a href="poligon/projekt.html">
+        <img src="poligon/Gumroad-Avatar-Character-modeling-Blender-Full-videos-recorded-and-resourses-by-FlyCat-1-169.jpg" alt="Gumroad-Avatar-Character-modeling-Blender-Full-videos-recorded-and-resourses-by-FlyCat-1-169">
+        <article>
+          <h3>Modellező projektek</h3>
+          <p>Alkossa meg kedvenc karaktereit és gyerekkori rajzait 3D karakterek formájában, vagy csatlakozzon az animációs filmet előkészítő karaktermodellezés folyamatához!</p>
+        </article>
+      </a>
+    </div>
+
+    <img id="elvalaszto" src="static/TPlogo.png" alt="p">
+
+    <div class="alcim" id="alcimanim">
+      <p>Az animáció az a technika, amely mozgóképet hoz létre statikus képek sorozatának gyors egymásutánban történő bemutatásával. Az animáció különböző formái közé tartozik a hagyományos kézi rajz, a stop-motion, és a számítógépes animáció. Mindegyik módszer különféle technikákat és eszközöket igényel, de a cél mindig ugyanaz: életre kelteni a képeket és történeteket mesélni általuk.
+      <br><br>
+      Az animációs filmkészítés egy összetett és kreatív folyamat, amely több szakaszból áll. Az első lépés a forgatókönyv megírása és a storyboard elkészítése, amely vizuálisan ábrázolja a történet főbb jeleneteit. Ezt követi a karakterek és a környezetek megtervezése, majd az animáció tényleges elkészítése, ahol a mozgások és a jelenetek animálásra kerülnek. A hang és a zenei aláfestés hozzáadása szintén fontos része a folyamatnak, amely segít a történet hangulatának és érzelmi hatásának fokozásában.
+      <br><br>
+      A modern technológia forradalmasította az animációs filmkészítést, lehetővé téve a digitális eszközök és szoftverek használatát. A 3D animáció, például, a számítógépes modellezés és renderelés technikáit alkalmazza, hogy realisztikus és részletgazdag mozgóképeket hozzon létre. Az animátorok ma már képesek komplex jeleneteket és karaktereket alkotni, amelyek korábban elképzelhetetlenek voltak. Ez a technológiai fejlődés új lehetőségeket nyitott meg a kreatív kifejezés és a történetmesélés terén, gazdagítva ezzel a filmipart és a szórakoztatást.
+      </p>
+    </div>
+
+    <h1>3D animáció és motion capture</h1>
+
+    <div id="alkezdo">
+      <a href="anim/blenderanim.html">
+        <img src="anim/wine-619452_1280.jpg" alt="wine-619452_1280">
+        <article>
+          
+          <h3>Animáció Blenderben</h3>
+          <p>Tanulja meg az animáció alapjait, ahol mozgóképek és élettel teli karakterek készítésével keltheti életre elképzeléseit. Oldalunkon részletes útmutatókat és gyakorlati példákat talál, amelyek segítenek elsajátítani a különböző animációs technikákat és szoftvereket.</p>
+        </article>
+      </a>
+
+      <a href="anim/animprojekt.html">
+        <img src="anim/owl-7672073_1280-169.jpg" alt="owl-7672073_1280-169">
+        <article>
+          
+          <h3>Animációs projektek</h3>
+          <p>Részt venni animációs projektekben nemcsak izgalmas, hanem rendkívül tanulságos is lehet. Az animáció létrehozása során lehetősége van kifejezni kreativitását és tehetségét, miközben számos új képességet sajátíthat el.</p>
+          <button></button>
+        </article>
+      </a>
+
+      <a href="anim/mocap.html">
+        <img src="anim/fun-avatar-side-by-side-video-features-shooting-in-motion-caption-alongside-the-final-product.jpg" alt="fun-avatar-side-by-side-video-features-shooting-in-motion-caption-alongside-the-final-product">
+        <article>
+          
+          <h3>Motion capture</h3>
+          <p>A motion capture (mozgásrögzítés) egy olyan technológia, amely lehetővé teszi a valós emberi mozgások digitális formában történő rögzítését és animációs karakterekre történő átvitelét. Ezt a technikát speciális szenzorok és kamerák segítségével végzik, amelyek rögzítik a színészek mozgásait, testtartását és arckifejezéseit.</p>
+        </article>
+      </a>
+    </div>
+
+    <img id="elvalaszto" src="static/TPlogo.png" alt="p">
+
+    <footer>
+      <p><a href="footer/impresszum.html">Impresszum</a> | <a href="footer/rolunk.html">Rólunk</a></p>
+      <p>Csak az önálló tanulás bír tartós értékkel. &#x2022; <a href="https://www.demokratikusneveles.hu/blog/gatto-miert-nem-oktatnak/" target="_blank">John Taylor Gatto</a></p>
+      <img src="static/cc.logo.large.png" alt="cc">
+    </footer>
+  </body>
+</html>
