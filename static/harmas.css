@@ -1,0 +1,49 @@
+#harmas {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    height: 20rem;
+}
+
+#kepszerk {
+    background-image: url('../kep/woman-2435605_1280-169.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+#keppaly {
+    background-image: url('../kep/photographer-2179204_1280.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+#aikep {
+    background-image: url('../kep/tengrai_image_1707657722_059395.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+#gamejam {
+    background-image: url('../jatek/platformer.jpg');
+    background-size: cover;
+    color: white;
+}
+#esport {
+    background-image: url('../jatek/playstation-6689793_1280.jpg');
+    background-size: cover;
+    color: white;
+}
+#vr {
+    background-image: url('../jatek/virtual-reality-4490469_1280.jpg');
+    background-size: cover;
+    color: white;
+}
+
+#harmas h2, #harmas p {padding: 0 2rem;}
+
+#kepszerk:hover, #keppaly:hover, #aikep:hover, #gamejam:hover, #esport:hover, #vr:hover {
+    background-image: none;
+    color: cornflowerblue;
+    transition: .5s;
+}
+/* *** *** *** *** HÁRMAS *** *** *** *** */
