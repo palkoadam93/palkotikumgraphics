@@ -43,7 +43,6 @@
 
 #kepszerk:hover, #keppaly:hover, #aikep:hover, #gamejam:hover, #esport:hover, #vr:hover {
     background-image: none;
-    color: cornflowerblue;
+    color: #0881A3;
     transition: .5s;
 }
-/* *** *** *** *** HÁRMAS *** *** *** *** */
