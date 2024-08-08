@@ -23,6 +23,25 @@
     color: white;
 }
 
+#cad3d {
+    background-image: url('../cad/cad.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+#print3d {
+    background-image: url('../cad/delivered-issue-05-2016-3d-printing-a-new-dimension-new.web.745.320.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+#scan3d {
+    background-image: url('../cad/scan3d.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
 #gamejam {
     background-image: url('../jatek/platformer.jpg');
     background-size: cover;
@@ -41,7 +60,7 @@
 
 #harmas h2, #harmas p {padding: 0 2rem;}
 
-#kepszerk:hover, #keppaly:hover, #aikep:hover, #gamejam:hover, #esport:hover, #vr:hover {
+#kepszerk:hover, #keppaly:hover, #aikep:hover, #cad3d:hover, #print3d:hover, #scan3d:hover, #gamejam:hover, #esport:hover, #vr:hover {
     background-image: none;
     color: #0881A3;
     transition: .5s;
