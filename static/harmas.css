@@ -42,6 +42,25 @@
     color: white;
 }
 
+#blenderkarakter {
+    background-image: url('../poligon/Gumroad-Avatar-Character-modeling-Blender-Full-videos-recorded-and-resourses-by-FlyCat-1.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+#blenderhs {
+    background-image: url('../poligon/equipment-2923689_1280.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+#blenderanim {
+    background-image: url('../anim/wine-619452_1280.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
 #gamejam {
     background-image: url('../jatek/platformer.jpg');
     background-size: cover;
@@ -60,7 +79,7 @@
 
 #harmas h2, #harmas p {padding: 0 2rem;}
 
-#kepszerk:hover, #keppaly:hover, #aikep:hover, #cad3d:hover, #print3d:hover, #scan3d:hover, #gamejam:hover, #esport:hover, #vr:hover {
+#kepszerk:hover, #keppaly:hover, #aikep:hover, #cad3d:hover, #print3d:hover, #scan3d:hover, #blenderkarakter:hover, #blenderhs:hover, #blenderanim:hover, #gamejam:hover, #esport:hover, #vr:hover {
     background-image: none;
     color: #0881A3;
     transition: .5s;
