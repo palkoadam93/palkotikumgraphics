@@ -54,8 +54,8 @@
     background-position: center;
     color: white;
 }
-#blenderanim {
-    background-image: url('../anim/wine-619452_1280.jpg');
+#blenderuv {
+    background-image: url('../poligon/image-asset.jpeg');
     background-size: cover;
     background-position: center;
     color: white;
@@ -79,7 +79,7 @@
 
 #harmas h2, #harmas p {padding: 0 2rem;}
 
-#kepszerk:hover, #keppaly:hover, #aikep:hover, #cad3d:hover, #print3d:hover, #scan3d:hover, #blenderkarakter:hover, #blenderhs:hover, #blenderanim:hover, #gamejam:hover, #esport:hover, #vr:hover {
+#kepszerk:hover, #keppaly:hover, #aikep:hover, #cad3d:hover, #print3d:hover, #scan3d:hover, #blenderkarakter:hover, #blenderhs:hover, #blenderuv:hover, #gamejam:hover, #esport:hover, #vr:hover {
     background-image: none;
     color: #0881A3;
     transition: .5s;
