@@ -1,45 +1,137 @@
 <!DOCTYPE html>
 <html lang="hu">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="image/x-icon" href="../static/Palkotikumicon.png">
-
-    <title>Projektek és pályázatok</title>
-    <link rel="stylesheet" href="../static/main.css">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
-    <!--Roboto Condensed a fulszovegnek-->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-  </head>
-  <body>
+    <title>Fotó- és Képszerkesztő Pályázat Felhívás</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f5;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff6f61;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        .main-content {
+            padding: 40px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .section {
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            font-size: 2em;
+            color: #333333;
+            margin-bottom: 20px;
+        }
+        .section p {
+            font-size: 1.2em;
+            color: #555555;
+            line-height: 1.6;
+        }
+        .highlight {
+            color: #ff6f61;
+            font-weight: bold;
+        }
+        .btn {
+            background-color: #ff6f61;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+            display: inline-block;
+            margin-top: 20px;
+            transition: background-color 0.3s;
+        }
+        .btn:hover {
+            background-color: #ff4940;
+        }
+        footer {
+            background-color: #333333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
     <header>
-      <a href="../index.html"><img src="../static/Palkotikumlogo2.png" alt="p" title="Kezdőlap"></a>
-      <h1>Projektek és pályázatok</h1>
+        <h1>Fotó- és képszerkesztő pályázat</h1>
     </header>
+    
+    <div class="main-content">
+        <div class="section">
+            <h2>Pályázati felhívás</h2>
+            <p>
+                Üdvözlünk minden kreatív elméjű, fotós és képszerkesztő szakembert! 
+                Elérkezett az idő, hogy bemutasd tehetséged a világnak. Ez a pályázat a 
+                <span class="highlight">fotóművészet</span> és a <span class="highlight">digitális képszerkesztés</span> 
+                legjobbjait hivatott megkeresni.
+            </p>
+            <p>
+                Akár hivatásos vagy, akár csak hobbiból alkotsz, ez a lehetőség neked szól. Ne hagyd ki, 
+                ragadd meg a lehetőséget, hogy munkáidat széles közönség előtt is bemutathasd, és nyerj értékes díjakat!
+            </p>
+        </div>
 
-    <div class="menu">
-      <a href="../index.html">Kezdőlap</a>
-      <a href="../bevezeto.html" id="akt">Bevezető</a>
-      <a href="../ketdimenzios.html">Grafika</a>
-      <a href="../nurbs.html">Modellezés</a>
-      <a href="../jatek.html">Játék</a>
+        <div class="section" style="background-color: #ffefdb;">
+            <h2>Pályázati kategóriák</h2>
+            <p>
+                Három fő kategóriában várjuk a nevezéseket:
+            </p>
+            <ul style="list-style: none; padding-left: 0; font-size: 1.2em;">
+                <li><span class="highlight">1. Tájfotózás:</span> A természet csodái és a városok rejtett gyöngyszemei.</li>
+                <li><span class="highlight">2. Portréfotózás:</span> Az emberi lélek mélyébe pillantva.</li>
+                <li><span class="highlight">3. Képszerkesztés:</span> Kreatív alkotások, melyek túllépnek a valóság határain.</li>
+            </ul>
+        </div>
+
+        <div class="section" style="background-color: #e6f7ff;">
+            <h2>Részvételi feltételek</h2>
+            <p>
+                A nevezéshez töltsd fel alkotásaidat a pályázati rendszerünkbe. Minden kategóriában legfeljebb 5 munkával pályázhatsz.
+                A pályázaton való részvétel <span class="highlight">díjmentes</span>, azonban előzetes regisztráció szükséges.
+            </p>
+            <p>
+                A pályázat leadási határideje: <span class="highlight">2024. október 31.</span>
+            </p>
+            <a href="#" class="btn">Nevezek most!</a>
+        </div>
+
+        <div class="section" style="background-color: #ffe4e1;">
+            <h2>Díjazás és eredményhirdetés</h2>
+            <p>
+                Az első helyezettek mindhárom kategóriában értékes díjakban részesülnek:
+            </p>
+            <ul style="list-style: none; padding-left: 0; font-size: 1.2em;">
+                <li><span class="highlight">1. helyezett:</span> X pénzjutalom + kiállítási lehetőség</li>
+                <li><span class="highlight">2. helyezett:</span> Y pénzjutalom</li>
+                <li><span class="highlight">3. helyezett:</span> Z pénzjutalom</li>
+            </ul>
+            <p>
+                Az eredményhirdetés időpontja: <span class="highlight">2024. november 15.</span>
+            </p>
+        </div>
     </div>
 
-    <main>
-      <aside>
-        <p><a href="javascript:history.back()">Vissza</a></p>
-      </aside>
-      <section>
-        <h1>Projektek és pályázatok</h1>
-      </section>
-    </main>
-
     <footer>
-      <p>Csak az önálló tanulás bír tartós értékkel. &#x2022; <a href="https://www.demokratikusneveles.hu/blog/gatto-miert-nem-oktatnak/" target="_blank">John Taylor Gatto</a></p>
-      <img src="../static/cc.logo.large.png" alt="cc">
+        <p>&copy; 2024 Palkotikum Graphics | Minden jog fenntartva!</p>
     </footer>
-  </body>
+</body>
 </html>
