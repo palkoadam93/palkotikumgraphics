@@ -1,45 +1,187 @@
 <!DOCTYPE html>
 <html lang="hu">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="image/x-icon" href="../static/Palkotikumicon.png">
+    <title>E-Sport Verseny Felhívás</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+      body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1a;
+    color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
 
-    <title>E-sport</title>
-    <link rel="stylesheet" href="../static/main.css">
+.event-banner {
+    background-color: #ff4500;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 900px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 30px;
+}
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
-    <!--Roboto Condensed a fulszovegnek-->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <header>
-      <a href="../index.html"><img src="../static/Palkotikumlogo2.png" alt="p" title="Kezdőlap"></a>
-      <h1>E-sport</h1>
-    </header>
+.event-banner h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
 
-    <div class="menu">
-      <a href="../index.html">Kezdőlap</a>
-      <a href="../bevezeto.html">Bevezető</a>
-      <a href="../ketdimenzios.html">Grafika</a>
-      <a href="../nurbs.html">Modellezés</a>
-      <a href="../jatek.html" id="akt">Játék</a>
+.event-banner p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.topic-block {
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 900px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+#e-sport {
+    background-color: #007BFF;
+}
+
+#verseny-menete {
+    background-color: #28A745;
+}
+
+#nyeremenyek {
+    background-color: #FFC107;
+    color: #333;
+}
+
+.topic-block h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.topic-block p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.topic-block ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.topic-block ul li {
+    margin-bottom: 5px;
+    font-size: 1.1em;
+}
+
+.event-details {
+    background-color: #6f42c1;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 900px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.event-details h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.event-details ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.event-details ul li {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.cta {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.register-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #ff4500;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.register-button:hover {
+    background-color: #c0392b;
+}
+    </style>
+</head>
+<body>
+    <div class="event-banner">
+        <h1>Ragadd meg a győzelmet! - E-sport verseny 2024</h1>
+        <p>Készen állsz, hogy megmérettesd magad a legjobb játékosokkal? Csatlakozz hozzánk az év legnagyobb e-sport eseményén, ahol csak a legjobbaké a dicsőség!</p>
     </div>
 
-    <main>
-      <aside>
-        <p><a href="javascript:history.back()">Vissza</a></p>
-      </aside>
-      <section>
-        <h1 id="esport">E-sport</h1>
-      </section>
-    </main>
+    <div class="topic-block" id="e-sport">
+        <h2>Mi is az az E-Sport?</h2>
+        <p>Az e-sport, vagyis elektronikus sport, a videójátékok versenyszerű játszását jelenti. Ez a globális jelenség egyre nagyobb népszerűségnek örvend, ahol a profi játékosok csapatai különböző játékokban mérkőznek meg. Az e-sport az elmúlt években jelentős növekedésen ment keresztül, és mára egy hatalmas közösséget épített ki világszerte.</p>
+        <h3>Népszerű e-sport játékok:</h3>
+        <ul>
+            <li>League of Legends</li>
+            <li>Counter-Strike: Global Offensive</li>
+            <li>Dota 2</li>
+            <li>Fortnite</li>
+            <li>Valorant</li>
+        </ul>
+    </div>
 
-    <footer>
-      <p>Csak az önálló tanulás bír tartós értékkel. &#x2022; <a href="https://www.demokratikusneveles.hu/blog/gatto-miert-nem-oktatnak/" target="_blank">John Taylor Gatto</a></p>
-      <img src="../static/cc.logo.large.png" alt="cc">
-    </footer>
-  </body>
+    <div class="topic-block" id="verseny-menete">
+        <h2>A verseny menete</h2>
+        <p>A verseny több szakaszból áll, amelyeken keresztül a résztvevők megküzdenek a végső győzelemért. Minden játékosnak lehetősége lesz megmutatni képességeit különböző játékokban, és harcolni a bajnoki címért!</p>
+        <h3>Szakaszok:</h3>
+        <ul>
+            <li><strong>Előselejtezők:</strong> Nyílt selejtezők, ahol bárki részt vehet és bejuthat a következő körbe.</li>
+            <li><strong>Csoportkörök:</strong> A legjobbak továbbjutnak és csoportokban versenyeznek egymás ellen.</li>
+            <li><strong>Döntők:</strong> A csoportkörök győztesei egyenes kieséses rendszerben mérkőznek meg.</li>
+        </ul>
+    </div>
+
+    <div class="topic-block" id="nyeremenyek">
+        <h2>Nyeremények</h2>
+        <p>A verseny hatalmas nyereményalappal rendelkezik, amely nemcsak pénzdíjakat, hanem exkluzív tárgyi nyereményeket is magában foglal. A legjobbak számára a dicsőség és az elismerés mellett komoly jutalmak várnak!</p>
+        <h3>Főbb nyeremények:</h3>
+        <ul>
+            <li>Pénzdíjak több millió forint értékben</li>
+            <li>Exkluzív gamer felszerelések</li>
+            <li>Szponzori szerződések</li>
+        </ul>
+    </div>
+
+    <div class="event-details">
+        <h2>Részletek és regisztráció</h2>
+        <ul>
+            <li><strong>Dátum:</strong> 2024. november 10-12.</li>
+            <li><strong>Helyszín:</strong> Budapest, Aréna Esport Center</li>
+            <li><strong>Időpont:</strong> Minden nap 10:00 - 20:00</li>
+            <li><strong>Regisztráció:</strong> Ne hagyd ki ezt az egyedülálló lehetőséget! Regisztrálj most, és biztosítsd a helyed a versenyen!</li>
+        </ul>
+    </div>
+
+    <div class="cta">
+        <p><strong>Mutasd meg, hogy te vagy a legjobb!</strong> Regisztrálj most, és vedd fel a harcot a legkeményebb ellenfelekkel!</p>
+        <a href="#" class="register-button">Regisztrálj most</a>
+    </div>
+</body>
 </html>

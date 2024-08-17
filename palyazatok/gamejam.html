@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Azeret Mono' rel='stylesheet'>
+    <title>Game Jam 2024 Felhívás</title>
+    <style>
+        body {
+            font-family: 'Arial';
+            background-color: #282c34;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+        .azeret {font-family: 'Azeret Mono';}
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 3rem;
+            color: #FFD700;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 5px #000000;
+            animation: bounce 2s infinite;
+        }
+        p {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            margin-bottom: 20px;
+        }
+        .highlight {
+            color: #00FFFF;
+            font-weight: bold;
+            text-shadow: 1px 1px 2px #000000;
+        }
+        .button {
+            background-color: #FF4500;
+            color: #ffffff;
+            padding: 15px 30px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 1.2rem;
+            margin-top: 20px;
+            display: inline-block;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+            transition: background-color 0.3s ease;
+        }
+        .button:hover {
+            background-color: #FF6347;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .genre-block {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            margin-bottom: 40px;
+        }
+        .genre {
+            flex: 1 1 calc(33.333% - 20px);
+            padding: 20px;
+            border-radius: 10px;
+            color: #ffffff;
+            text-align: left;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            background-color: #4B0082;
+            transition: transform 0.3s ease-in-out, background-color 0.3s ease;
+        }
+        .genre:hover {
+            transform: scale(1.05);
+            background-color: #6A0DAD;
+        }
+        .genre h2 {
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+            color: #FFD700;
+        }
+        .pixelart { background-color: #00CED1; }
+        .mechanics { background-color: #32CD32; }
+        .gameplay { background-color: #FF6347; }
+        .music { background-color: #FF1493; }
+
+        a {color: #FF4500;}
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+            40% { transform: translateY(-30px); }
+            60% { transform: translateY(-15px); }
+        }
+        .footer {
+            margin-top: 50px;
+            font-size: 1rem;
+        }
+        .footer a {
+            color: #00FFFF;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="azeret">Game Jam: ugrás a kétdimenziós kalandba!</h1>
+        <p>Figyelem, játékkészítők és kreatív elmék! Itt az idő, hogy összegyűjtsétek a csapatotokat, elővegyétek a legvadabb ötleteiteket, és belemerüljetek a 2D platformjátékok varázslatos világába!</p>
+        <p class="highlight azeret">Csatlakozzatok a legújabb Game Jam eseményhez, ahol egyetlen hétvége alatt kell létrehozni egy egyedi, színes, és lebilincselő 2D platformjátékot!</p>
+
+        <div class="genre-block">
+            <div class="genre pixelart">
+                <h2 class="azeret">Pixelművészet csodák</h2>
+                <p>Használj bátran vibráló színeket, egyedi karaktereket és varázslatos világokat!</p>
+            </div>
+            <div class="genre mechanics">
+                <h2 class="azeret">Izgalmas mechanikák</h2>
+                <p>Ugrás, csúszás, duplaugrás vagy éppen teleportálás – minden mozdulat számít!</p>
+            </div>
+            <div class="genre gameplay">
+                <h2 class="azeret">Függőséget okozó játékmenet</h2>
+                <p>Teremts olyan játékot, amit nem lehet letenni, ahol minden ugrás új kihívást rejt!</p>
+            </div>
+            <div class="genre music">
+                <h2 class="azeret">Zene és hangok</h2>
+                <p>Teremts hangulatot zenékkel és hangeffektekkel, hogy a játékod teljes élményt nyújtson!</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="azeret">Miért vegyél részt?</h2>
+            <p>Találkozz más fejlesztőkkel, ossz meg ötleteket, és tanuljatok egymástól!</p>
+            <p>Játékodat szakmai zsűri és a játékos közösség is értékelni fogja.</p>
+            <p>A legjobb alkotások díjazásban részesülnek, és lehetőséget kapnak a szélesebb közönség előtti bemutatkozásra!</p>
+        </div>
+
+        <div class="section">
+            <h2 class="azeret">A Game Jam menetrendje:</h2>
+            <p><strong>Kezdés:</strong> 2024. szeptember 20., 18:00</p>
+            <p><strong>Befejezés:</strong> 2024. szeptember 22., 18:00</p>
+            <p><strong>Eredményhirdetés:</strong> 2024. szeptember 25.</p>
+        </div>
+
+        <div class="section">
+            <h2 class="azeret">Hogyan jelentkezz?</h2>
+            <p>Formáld meg csapatodat (vagy dolgozz egyedül), és regisztrálj a <a href="mailto:rakoczitehetsegpont@gmail.com">rakoczitehetsegpont@gmail.com</a> e-mail címen!</p>
+            <p>Kérjük, hogy a levél tárgyában tüntesd fel a „Game Jam 2024” szöveget, valamint a csapatod nevét és a csapattagok listáját.</p>
+        </div>
+
+        <a href="mailto:rakoczitehetsegpont@gmail.com" class="button">Jelentkezés most</a>
+
+        <div class="footer azeret">
+            <p>Készen állsz az ugrásra? Indítsd el a játékmotorodat, készítsd elő a kódolási eszközeidet, és alkoss egy felejthetetlen 2D platformer kalandot! <strong>Gyere, és ugorj be a kalandba!</strong></p>
+        </div>
+    </div>
+</body>
+</html>

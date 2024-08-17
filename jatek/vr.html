@@ -1,45 +1,184 @@
 <!DOCTYPE html>
 <html lang="hu">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="image/x-icon" href="../static/Palkotikumicon.png">
+    <title>Virtuális Valóság Rendezvény Felhívás</title>
+    <style>
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
 
-    <title>Virtuális valóság</title>
-    <link rel="stylesheet" href="../static/main.css">
+.event-banner {
+    background-color: #8e44ad;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 900px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 30px;
+}
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
-    <!--Roboto Condensed a fulszovegnek-->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <header>
-      <a href="../index.html"><img src="../static/Palkotikumlogo2.png" alt="p" title="Kezdőlap"></a>
-      <h1>Virtuális valóság</h1>
-    </header>
+.event-banner h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
 
-    <div class="menu">
-      <a href="../index.html">Kezdőlap</a>
-      <a href="../bevezeto.html">Bevezető</a>
-      <a href="../ketdimenzios.html">Grafika</a>
-      <a href="../nurbs.html">Modellezés</a>
-      <a href="../jatek.html" id="akt">Játék</a>
+.event-banner p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.topic-block {
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 900px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+#vr-technologia {
+    background-color: #2980b9;
+}
+
+#program {
+    background-color: #27ae60;
+}
+
+#workshopok {
+    background-color: #f39c12;
+    color: #333;
+}
+
+.topic-block h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.topic-block p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.topic-block ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.topic-block ul li {
+    margin-bottom: 5px;
+    font-size: 1.1em;
+}
+
+.event-details {
+    background-color: #c0392b;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 900px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.event-details h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.event-details ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.event-details ul li {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.cta {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.register-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #8e44ad;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.register-button:hover {
+    background-color: #6f2c91;
+}
+    </style>
+</head>
+<body>
+    <div class="event-banner">
+        <h1>Lépj be a jövőbe! - Virtuális valóság élmény 2024</h1>
+        <p>Fedezd fel a virtuális valóság világát egy felejthetetlen rendezvény keretében! Merülj el olyan élményekben, amiket eddig csak elképzelni tudtál!</p>
     </div>
 
-    <main>
-      <aside>
-        <p><a href="javascript:history.back()">Vissza</a></p>
-      </aside>
-      <section>
-        <h1 id="vr">Virtuális valóság (Oculus)</h1>
-      </section>
-    </main>
+    <div class="topic-block" id="vr-technologia">
+        <h2>Mi az a virtuális valóság?</h2>
+        <p>A virtuális valóság (VR) egy olyan technológia, amely lehetővé teszi, hogy a felhasználók interaktív, számítógép által generált környezetekbe lépjenek be. Ezzel az élménnyel teljesen új világokat fedezhetünk fel, legyen szó játékokról, oktatásról, vagy akár terápiás alkalmazásokról.</p>
+        <h3>Felhasználási területek:</h3>
+        <ul>
+            <li><strong>Játékok:</strong> A VR új szintre emeli a játékélményt, ahol a játékosok teljesen elmerülhetnek a virtuális világokban.</li>
+            <li><strong>Oktatás:</strong> A virtuális osztálytermek és szimulációk forradalmasítják a tanulást, lehetővé téve a diákok számára, hogy közvetlenül tapasztalják meg az oktatási anyagokat.</li>
+            <li><strong>Terápia:</strong> A VR segítségével új módszerek alakultak ki a mentális egészség kezelésére, például a fóbiák kezelésében vagy a stressz csökkentésében.</li>
+        </ul>
+    </div>
 
-    <footer>
-      <p>Csak az önálló tanulás bír tartós értékkel. &#x2022; <a href="https://www.demokratikusneveles.hu/blog/gatto-miert-nem-oktatnak/" target="_blank">John Taylor Gatto</a></p>
-      <img src="../static/cc.logo.large.png" alt="cc">
-    </footer>
-  </body>
+    <div class="topic-block" id="program">
+        <h2>A rendezvény programja</h2>
+        <p>A rendezvény során változatos programok várnak, amelyek során minden látogató megtalálhatja a számára legérdekesebb élményeket. Ismerkedj meg a legújabb VR fejlesztésekkel, próbáld ki a legmenőbb VR játékokat, és lépj be a jövő világába!</p>
+        <h3>Programok:</h3>
+        <ul>
+            <li><strong>VR bemutatók:</strong> Ismerkedj meg a legújabb VR technológiákkal és eszközökkel, amelyeket a szakma vezetői mutatnak be.</li>
+            <li><strong>Interaktív élmények:</strong> Próbáld ki a legújabb VR játékokat és szimulációkat, ahol te lehetsz a főszereplő!</li>
+            <li><strong>Panelbeszélgetések:</strong> Vegyél részt izgalmas panelbeszélgetéseken, ahol a VR jövőjéről és a technológia társadalmi hatásairól lesz szó.</li>
+        </ul>
+    </div>
+
+    <div class="topic-block" id="workshopok">
+        <h2>Workshopok és műhelymunkák</h2>
+        <p>Ne hagyd ki a különböző workshopokat, ahol a VR szakértőktől tanulhatsz. Ezek az interaktív foglalkozások betekintést nyújtanak a VR fejlesztésbe, a tartalomkészítésbe és a technológia alkalmazásába különböző iparágakban.</p>
+        <h3>Kiemelt workshopok:</h3>
+        <ul>
+            <li><strong>VR játékfejlesztés:</strong> Tanuld meg, hogyan készíthetsz lenyűgöző VR játékokat a kezdetektől a megvalósításig.</li>
+            <li><strong>Virtuális tanulási környezetek:</strong> Ismerd meg, hogyan alkalmazhatod a VR-t az oktatásban, és készíts saját tanulási környezeteket.</li>
+            <li><strong>VR tartalomkészítés:</strong> Fedezd fel a 360 fokos videózás és a VR filmkészítés rejtelmeit.</li>
+        </ul>
+    </div>
+
+    <div class="event-details">
+        <h2>A rendezvény részletei</h2>
+        <ul>
+            <li><strong>Dátum:</strong> 2024. október 15-17.</li>
+            <li><strong>Helyszín:</strong> Budapest, Innovációs Központ</li>
+            <li><strong>Időpont:</strong> Minden nap 9:00 - 18:00</li>
+            <li><strong>Regisztráció:</strong> Ne hagyd ki ezt az egyedülálló lehetőséget! Regisztrálj most, hogy biztosítsd a helyed!</li>
+        </ul>
+    </div>
+
+    <div class="cta">
+        <p><strong>Lépj be a virtuális valóság világába!</strong> Regisztrálj most, és éld át a jövő technológiáját első kézből!</p>
+        <a href="#" class="register-button">Regisztrálj most</a>
+    </div>
+</body>
 </html>
