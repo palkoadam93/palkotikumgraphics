@@ -77,6 +77,10 @@ aside a, section a, article a {
 
 /* =================================== ALMENÜ ================================== */
 
+nav {
+    background-color: rgba(255, 255, 255, .8);
+}
+
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -192,8 +196,6 @@ footer a:hover {
         grid-template-columns: 20% 80%;
         padding: 0 10%; 
     }
-
-    section {padding: 0 2rem;} /*ezt a menüs aloldalak tartalom-szekciója kedvéért*/
 
     p, section li {text-align: justify;}
 }
