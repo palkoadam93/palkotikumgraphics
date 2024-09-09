@@ -61,7 +61,7 @@
     color: white;
 }
 
-#gamejam {
+#platformer {
     background-image: url('../jatek/platformer.jpg');
     background-size: cover;
     color: white;
@@ -71,15 +71,15 @@
     background-size: cover;
     color: white;
 }
-#vr {
-    background-image: url('../jatek/virtual-reality-4490469_1280.jpg');
+#gamejam {
+    background-image: url('../jatek/game-over-7952252_1280.png');
     background-size: cover;
     color: white;
 }
 
 #harmas h2, #harmas p {padding: 0 2rem;}
 
-#kepszerk:hover, #keppaly:hover, #aikep:hover, #cad3d:hover, #print3d:hover, #scan3d:hover, #blenderkarakter:hover, #blenderhs:hover, #blenderuv:hover, #gamejam:hover, #esport:hover, #vr:hover {
+#kepszerk:hover, #keppaly:hover, #aikep:hover, #cad3d:hover, #print3d:hover, #scan3d:hover, #blenderkarakter:hover, #blenderhs:hover, #blenderuv:hover, #gamejam:hover, #esport:hover, #platformer:hover {
     background-image: none;
     color: #0881A3;
     transition: .5s;
