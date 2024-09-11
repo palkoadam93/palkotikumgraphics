@@ -99,6 +99,64 @@ section h3, article h3 {
         background-size:cover;
     }
 
+    #alcimiras {
+        background-image: url("../iras/typewriter-1170657_1280.jpg");
+        background-attachment: fixed;/*CSAK ENNYIT ÍRTAM HOZZÁ!!!*/
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:cover;
+    }
+    #alcimmuv {
+        background-image: url("../muv/ai-generated-8166706_1920.png");
+        background-attachment: fixed;/*CSAK ENNYIT ÍRTAM HOZZÁ!!!*/
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:cover;
+    }
+    #alcimcartoon {
+        background-image: url("../muv/cats-7122943_1280.png");
+        background-attachment: fixed;/*CSAK ENNYIT ÍRTAM HOZZÁ!!!*/
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:cover;
+    }
+    #alcimanim {
+        background-image: url('../anim/avatar-1738010_1920.jpg');
+        background-attachment: fixed;/*CSAK ENNYIT ÍRTAM HOZZÁ!!!*/
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:cover;
+    }
+    #alcimszin {
+        background-image: url("../szin/enactment-258631_1920.jpg");
+        background-attachment: fixed;/*CSAK ENNYIT ÍRTAM HOZZÁ!!!*/
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size:cover;
+    }
+    #alcimtanc {
+        background-image: url('../tanc/dance-430554_1280-2.jpg');
+        background-attachment: fixed;/*CSAK ENNYIT ÍRTAM HOZZÁ!!!*/
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:cover;
+    }
+    #alcimzene {
+        background-image: url('../zene/singer-2606347_1920-169.jpg');
+        background-attachment: fixed;/*CSAK ENNYIT ÍRTAM HOZZÁ!!!*/
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:cover;
+    }
+    #alcimfilm {
+        background-image: url('../film/sony-1455035_1280.jpg');
+        background-attachment: fixed;/*CSAK ENNYIT ÍRTAM HOZZÁ!!!*/
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:cover;
+    }
+
+
     h1 {
         padding: 3rem 0;
         text-align: center;

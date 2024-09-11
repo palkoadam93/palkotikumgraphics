@@ -1,25 +1,56 @@
-#paly {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+.card-container {
+    display: grid;
+    /*grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));*/
+    grid-template-columns: 24% 24% 24% 24%;
+    gap: 1%;
+    width: 80%;
+    margin: auto;
 }
 
-.paly {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    color: white;
-    font-size: 16px;
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
     text-align: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
+    transition: transform 0.3s;
 }
 
-.paly:hover {transform: scale(1.1);}
+.card h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
 
-#palykre {background-color:indigo;}
-#palygraf {background-color: crimson;}
-#palyfilm {background-color:darkgreen;}
+.card p {
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+.card a {
+    margin: auto;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.card a:hover {
+    background-color: #0056b3;
+}
+
+/*
+.card-container a {
+    margin: 0;
+    padding: 0;
+    background-color: none;
+}
+.card-container a:hover {
+    background-color: none;
+}
+*/
+.card:hover {
+    transform: translateY(-5px);
+}

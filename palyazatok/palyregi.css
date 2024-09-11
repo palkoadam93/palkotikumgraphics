@@ -1,0 +1,25 @@
+#paly {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.paly {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.paly:hover {transform: scale(1.1);}
+
+#palykre {background-color:indigo;}
+#palygraf {background-color: crimson;}
+#palyfilm {background-color:darkgreen;}

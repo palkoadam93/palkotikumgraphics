@@ -1,6 +1,8 @@
 #kezdolap {
     display: grid;
     grid-template-columns: 50% 50%;
+    row-gap: 2rem;
+    column-gap: 2rem;
     padding: 0 10%; /*a képernyő két szélén*/
 }
 
@@ -31,6 +33,42 @@ button a:hover {
 }
 
 section h3 {margin: 0;}
+
+#iras {
+    background-image: url("../iras/typewriter-1170657_1280-169.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#grafika {
+    background-image: url("../muv/ai-generated-8166706_1920-169.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#szin {
+    background-image: url("../szin/enactment-258631_1920-169.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#film {
+    background-image: url("../film/sony-1455035_1280-169.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#anim {
+    background-image: url("../anim/owl-7672073_1280-169.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#zene {
+    background-image: url("../zene/singer-2606347_1920-169.jpg");
+    background-size: cover;
+    background-position: center;
+}
 
 #bevez {
     background-image: url("../nyitokepek/interior-design-8781907_1280-169.png");

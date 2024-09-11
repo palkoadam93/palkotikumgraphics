@@ -4,7 +4,10 @@ body {
 
     margin: 0;
     color: #0881A3;
+    
     background-color: #F5FFFA;
+    /*background-image: url('pattern.jpg');
+    background-attachment: fixed;*/
 }
 
 header {
