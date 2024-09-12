@@ -43,12 +43,40 @@ section h3, article h3 {
         padding: 1rem 2rem;
     }
     #bev {
-        background-image: url("../nyitokepek/backgrounds-8797576_1920.jpg");
+        display: grid;
+        grid-template-columns: 50% 50%;
+        /*padding: 0 10%;*/
+
+        background-image: url("../static/concert-4768496_1920.jpg");
         background-attachment: fixed;/*CSAK ENNYIT ÍRTAM HOZZÁ!!!*/
         background-repeat: no-repeat;
         background-position: center;
         background-size:cover;
     }
+    #bev img {
+        display: block;
+        border: 1px solid black;
+        border-radius: 50%;
+        max-width: 30%;
+        height: auto;
+        margin: auto;
+        box-shadow: 5px 5px lightblue;
+    }
+    #bev h1 {
+        text-align: left;
+    }
+    #bevkep {
+        background-image: linear-gradient(to right, rgba(255,255,255,.0), rgba(255,255,255,.6));
+        display: flex;
+        /* justify-content: center; /* Vízszintesen középre */
+        align-items: center;    /* Függőlegesen középre */
+    }
+    #bevtext {
+        background-image: linear-gradient(to right, rgba(255,255,255,.6), white);
+        font-size:larger;
+        padding: 1rem 2rem;
+    }
+
     #alcimhardver {
         background-image: url("../nyitokepek/interior-design-8781907_1280.png");
         background-attachment: fixed;/*CSAK ENNYIT ÍRTAM HOZZÁ!!!*/
@@ -155,7 +183,6 @@ section h3, article h3 {
         background-position: center;
         background-size:cover;
     }
-
 
     h1 {
         padding: 3rem 0;
