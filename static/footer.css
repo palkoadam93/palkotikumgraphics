@@ -1,0 +1,8 @@
+@media (min-width:1080px){
+    #rolunk {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        padding: 0 10%;
+    }
+    #rolunk div {padding: 3rem;}
+}
