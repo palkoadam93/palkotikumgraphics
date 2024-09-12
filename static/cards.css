@@ -1,9 +1,9 @@
-#kezdolap {
+.kezdolap {
     display: grid;
     grid-template-columns: 50% 50%;
-    row-gap: 2rem;
     column-gap: 2rem;
     padding: 0 10%; /*a képernyő két szélén*/
+    margin: 2rem 0;
 }
 
 section div {
@@ -89,7 +89,7 @@ section h3 {margin: 0;}
 }
 
 #haromde {
-    background-image: url("../ketdimenzios/mountains-1524804_1280.png");
+    background-image: url("../nyitokepek/laserwallp.jpg");
     background-size: cover;
     background-position: center;
 }
