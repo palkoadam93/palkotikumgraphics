@@ -85,6 +85,8 @@ section h3, article h3 {
     #bevtext p {
         color: orangered;
     }
+    .jt {margin-right: 2.5rem;}
+    .bt {margin-left: 2.5rem;}
 
     .leir {
         margin: 0 10% 2rem 10%;
