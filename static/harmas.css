@@ -77,9 +77,41 @@
     color: white;
 }
 
+#vfx {
+    background-image: url('../film/bokeh-2245355_1280.jpg');
+    background-size: cover;
+    color: white;
+}
+#unreal {
+    background-image: url('../film/placeholder-social.png');
+    background-size: cover;
+    color: white;
+}
+#unity {
+    background-image: url('../film/unity.jpg');
+    background-size: cover;
+    color: white;
+}
+
+#conceptart {
+    background-image: url('../muv/digitalhands.jpg');
+    background-size: cover;
+    color: white;
+}
+#storyboard {
+    background-image: url('../muv/storyboarding-books-best.jpg');
+    background-size: cover;
+    color: white;
+}
+#manga {
+    background-image: url('../muv/cartoon-5190961_1280.jpg');
+    background-size: cover;
+    color: white;
+}
+
 #harmas h2, #harmas p {padding: 0 2rem;}
 
-#kepszerk:hover, #keppaly:hover, #aikep:hover, #cad3d:hover, #print3d:hover, #scan3d:hover, #blenderkarakter:hover, #blenderhs:hover, #blenderuv:hover, #gamejam:hover, #esport:hover, #platformer:hover {
+#kepszerk:hover, #keppaly:hover, #aikep:hover, #cad3d:hover, #print3d:hover, #scan3d:hover, #blenderkarakter:hover, #blenderhs:hover, #blenderuv:hover, #gamejam:hover, #esport:hover, #platformer:hover, #vfx:hover, #unreal:hover, #unity:hover, #conceptart:hover, #storyboard:hover, #manga:hover {
     background-image: none;
     color: #0881A3;
     transition: .5s;
