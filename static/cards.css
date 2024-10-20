@@ -1,17 +1,17 @@
 .kezdolap {
     display: grid;
     grid-template-columns: 50% 50%;
-    column-gap: 2rem;
+    /*column-gap: 2rem;*/
     padding: 0 10%; /*a képernyő két szélén*/
     margin: 2rem 0;
 }
+.kezdolap img {width: 100%;}
+
+.kezdolap section {padding: 0;}
 
 section div {
     padding: 2rem;
-    height: 25rem;
-}
-section h3, section p, section button {
-    display: none;
+    /*height: 25rem;*/
 }
 
 button {
@@ -33,88 +33,3 @@ button a:hover {
 }
 
 section h3 {margin: 0;}
-
-#iras {
-    background-image: url("../iras/typewriter-1170657_1280-169.jpg");
-    background-size: cover;
-    background-position: center;
-
-    padding: 0;
-}
-
-#grafika {
-    background-image: url("../muv/ai-generated-8166706_1920-169.png");
-    background-size: cover;
-    background-position: center;
-
-    padding: 0;
-}
-
-#szin {
-    background-image: url("../szin/enactment-258631_1920-169.jpg");
-    background-size: cover;
-    background-position: center;
-
-    padding: 0;
-}
-
-#film {
-    background-image: url("../film/sony-1455035_1280-169.jpg");
-    background-size: cover;
-    background-position: center;
-
-    padding: 0;
-}
-
-#anim {
-    background-image: url("../anim/owl-7672073_1280-169.jpg");
-    background-size: cover;
-    background-position: center;
-
-    padding: 0;
-}
-
-#zene {
-    background-image: url("../zene/singer-2606347_1920-169.jpg");
-    background-size: cover;
-    background-position: center;
-
-    padding: 0;
-}
-
-#bevez {
-    background-image: url("../nyitokepek/interior-design-8781907_1280-169.png");
-    background-size: cover;
-    background-position: center;
-
-    padding: 0;
-}
-
-#poligon {
-    background-image: url("../poligon/Gumroad-Avatar-Character-modeling-Blender-Full-videos-recorded-and-resourses-by-FlyCat-1-169.jpg");
-    background-size: cover;
-    background-position: center;
-
-    padding: 0;
-}
-
-#grafjatek {
-    background-image: url("../jatek/game-controller-5619105_1280-169.jpg");
-    background-size: cover;
-    background-position: center;
-
-    padding: 0;
-}
-
-#haromde {
-    background-image: url("../nyitokepek/laserwallp.jpg");
-    background-size: cover;
-    background-position: center;
-
-    padding: 0;
-}
-
-section:hover div {
-    background-image: linear-gradient(to bottom, white, rgba(255,255,255,.6));
-}
-section:hover * {display: block;}

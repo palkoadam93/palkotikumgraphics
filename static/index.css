@@ -17,6 +17,8 @@ h1 {
     font-size:5rem;
 }
 
+#bev img {display: none;}
+
 article h3, article p {
     padding: .5rem;
     margin: 0;
@@ -53,7 +55,7 @@ section h3, article h3 {
         grid-template-columns: 50% 50%;
         /*padding: 0 10%;*/
 
-        background-image: url("../static/concert-4768496_1920.jpg");
+        background-image: url("../static/futuristic-architecture-6694976_1920.jpg");
         background-attachment: fixed;/*CSAK ENNYIT ÍRTAM HOZZÁ!!!*/
         background-repeat: no-repeat;
         background-position: center;
@@ -72,13 +74,13 @@ section h3, article h3 {
         text-align: center;
     }
     #bevkep {
-        background-image: linear-gradient(to right, rgba(255,255,255,.0), rgba(255,255,255,.6));
+        background-image: linear-gradient(to right, rgba(255,255,255,.0), rgba(255,255,255,.4));
         /*display: flex;*/
         /* justify-content: center; /* Vízszintesen középre */
         /*align-items: center;    /* Függőlegesen középre */
     }
     #bevtext {
-        background-image: linear-gradient(to right, rgba(255,255,255,.6), white);
+        background-image: linear-gradient(to right, rgba(255,255,255,.4), white);
         font-size:larger;
         padding: 1rem 2rem;
     }
