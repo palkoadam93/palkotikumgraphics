@@ -61,22 +61,6 @@
     color: white;
 }
 
-#platformer {
-    background-image: url('../jatek/platformer.jpg');
-    background-size: cover;
-    color: white;
-}
-#esport {
-    background-image: url('../jatek/playstation-6689793_1280.jpg');
-    background-size: cover;
-    color: white;
-}
-#gamejam {
-    background-image: url('../jatek/game-over-7952252_1280.png');
-    background-size: cover;
-    color: white;
-}
-
 #vfx {
     background-image: url('../film/bokeh-2245355_1280.jpg');
     background-size: cover;
