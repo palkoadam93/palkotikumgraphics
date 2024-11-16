@@ -109,6 +109,13 @@ section h3, article h3 {
         background-position: center;
         background-size:cover;
     }
+    #alcimkep {
+        background-image: url("../kep/woman-2435605_1280.jpg");
+        background-attachment: fixed;/*CSAK ENNYIT ÍRTAM HOZZÁ!!!*/
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:cover;
+    }
     #alcim3dgrafika {
         background-image: url('../nyitokepek/laserwallp.jpg');
         background-attachment: fixed;/*CSAK ENNYIT ÍRTAM HOZZÁ!!!*/

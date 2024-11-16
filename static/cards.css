@@ -7,9 +7,9 @@
 }
 .kezdolap img {width: 100%;}
 
-.kezdolap section {padding: 0;}
+/*.kezdolap section {padding: 0;}*/
 
-section div {
+section {
     padding: 2rem;
     /*height: 25rem;*/
 }
